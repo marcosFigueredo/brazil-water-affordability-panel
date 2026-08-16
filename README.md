@@ -1,5 +1,7 @@
 # Water and sanitation affordability in Brazil, 1995 to 2022
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21968533.svg)](https://doi.org/10.5281/zenodo.21968533)
+
 Reproduction code and manuscript source for a study testing whether utility
 planning variables (investment level and stability, financing structure,
 billing losses) explain water and sanitation affordability across Brazilian
@@ -57,5 +59,8 @@ versions used.
 
 ## Citation
 
-If you use this code or data, please cite the manuscript (citation details
-to be added on publication).
+If you use this code, please cite it via its Zenodo DOI:
+[10.5281/zenodo.21968533](https://doi.org/10.5281/zenodo.21968533).
+
+If you use the study's findings, please cite the manuscript (citation
+details to be added on publication).

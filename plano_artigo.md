@@ -1362,3 +1362,78 @@ amostra de estimação principal = 2001-2021; sub-períodos recentes =
   sem erros nem referências indefinidas), página 1 (resumo) e página 17
   (Table 6 com períodos e nota corrigidos) inspecionadas visualmente via
   `pdftoppm`.
+
+## 22. Limpeza de páginas (35 → 32)
+
+- Removido o campo `note` (metadado de exportação do Scopus: SGR, "Cited
+  by", afiliações) de 41 das 42 entradas do `sn-bibliography.bib`. Lista de
+  referências caiu de ~5 para ~3 páginas.
+- Removido bloco de boilerplate do template ("Editorial Policies for:
+  Springer journals... BMC journals...", explicitamente marcado "please
+  ignore this" no comentário do próprio template) antes das References.
+- Resultado: 35 → 32 páginas, sem perda de conteúdo real. Compilado e
+  conferido visualmente.
+
+## 23. DESCOBERTA CRÍTICA: revista errada — não é Springer, é Elsevier (ScienceDirect)
+
+**16/08/2026.** Usuário trouxe a URL real da chamada:
+`sciencedirect.com/special-issue/336147/water-utility-planning-for-customer-equity-outcomes`.
+ScienceDirect é a plataforma da **Elsevier**, não da Springer. Isso significa
+que **todo o manuscrito foi formatado com o template errado** até agora
+(`sn-jnl.cls`, estilo de citação numerado Springer, seção "Declarations" no
+formato Springer). A revista real ainda não foi confirmada com certeza —
+candidata mais provável é **Utilities Policy** (Elsevier), onde o próprio
+Gregory Pierce já publicou, e que combina tematicamente (economia/política
+de utilities), mas isso precisa ser confirmado pelo nome exato que aparece
+na página da special issue.
+
+**Informação nova e crítica do Guide for Authors colado pelo usuário:**
+> "Articles: Full-length papers... Authors are strongly encouraged to
+> follow this Guide for Authors and stay within the recommended length of
+> **6,000 to 8,000 words**."
+
+**Realidade atual**: o manuscrito Springer tem **~12.500 palavras de corpo**
+(sem contar referências), medido via `pdftotext` sobre o PDF de 32 páginas.
+Isso é **50-100% acima** do teto recomendado de 6.000-8.000 palavras. Não é
+um corte cosmético, é uma reestruturação real do que fica no corpo do artigo
+versus o que vira material suplementar.
+
+**Combinado com o usuário**: ele traz o template Elsevier correto amanhã.
+Enquanto isso, este documento define o que é essencial pro corpo do artigo
+(~7.000 palavras alvo) e o que migra para material suplementar hospedado no
+GitHub (`github.com/marcosFigueredo/brazil-water-affordability-panel`, já
+com DOI Zenodo `10.5281/zenodo.21968532`).
+
+### Proposta de triagem de conteúdo (a aplicar quando o template chegar)
+
+**Fica no corpo do artigo (~7.000 palavras):**
+
+| Seção | Conteúdo essencial mantido |
+|---|---|
+| Introdução | Motivação, lacuna na literatura, as 4 perguntas de pesquisa — condensar de ~900 para ~500-600 palavras |
+| Related Work | Só o parágrafo de gaps (3 frases), cortar a revisão extensa de 3 correntes — condensar ou fundir com a Introdução |
+| Métodos | ICR-SM (Eq. 1-2), especificação do painel com efeitos fixos (Eq. 6), lista curta das 3 checagens de robustez (sem as 5+ equações de ML/projeção) |
+| Resultados 4.1 | Table 3 (região) + Table 4 (porte, o gradiente de equidade por tamanho) + 1 mapa (o histórico ICR-SM por UF) |
+| Resultados 4.2 | Table 6 simplificada (resultado nulo no painel completo + instabilidade 2012 em diante), sem a tabela de robustez de 4 especificações completa |
+| Resultados 4.3/4.4 | Achados de trade-off regional e crescimento, condensados a 1-2 parágrafos; os 3 cenários 2033 como tabela simples (já temos) + 1 figura (a curva nacional) |
+| ML | Só o resultado headline (MAE/RMSE dos 2 modelos batidos pela persistência), sem tabelas de permutation importance nem gráficos previsto-vs-observado |
+| Discussion | Resposta direta às 4 perguntas, condensada — hoje tem ~1.400 palavras, alvo ~700-900 |
+| Conclusion | Manter como está, já é enxuta (~500 palavras) |
+
+**Migra para material suplementar (GitHub, referenciado por link/DOI no artigo):**
+
+- Tabela de robustez completa com as 4 especificações (janelas de CV 3/5/10 anos, contemporâneo)
+- As duas tabelas de permutation importance (ablation de cobertura e de ICR-SM)
+- Os gráficos previsto-vs-observado (cobertura e ICR-SM, Figs. 4 e 6 atuais)
+- A figura de séries temporais dos inputs do ML (Fig. 2 atual)
+- Equações detalhadas dos 2 modelos de ML e do forecast recursivo (Eq. 11-13 atuais)
+- Mapas coropléticos adicionais além do principal (gap água×esgoto, projeção 2033 água/esgoto)
+- Detalhamento do isolation check do denominador PNADC (já resumido, mas o texto longo sobre subsídio de financiamento na década de 2010 pode encurtar)
+- Os caveats extensos de DF/Mato Grosso do Sul (reduzir a 1 frase no corpo, detalhar no suplementar)
+
+**Não precisa mudar**: os scripts, dados, README já estão no GitHub/Zenodo
+como estão — isso já cumpre o papel de "material suplementar" completo. O
+trabalho de amanhã é (1) aplicar o template Elsevier correto, (2) reescrever
+o texto do corpo seguindo a triagem acima, (3) adicionar no artigo uma frase
+tipo "extended results, robustness tables and additional figures are
+available in the online supplementary material" apontando pro repositório.

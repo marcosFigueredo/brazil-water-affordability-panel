@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/1336139109.svg)](https://doi.org/10.5281/zenodo.21968532)
 # Water and sanitation affordability in Brazil, 1995 to 2022
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21968533.svg)](https://doi.org/10.5281/zenodo.21968533)

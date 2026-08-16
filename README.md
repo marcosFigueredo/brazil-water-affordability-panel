@@ -1,7 +1,6 @@
-[![DOI](https://zenodo.org/badge/1336139109.svg)](https://doi.org/10.5281/zenodo.21968532)
 # Water and sanitation affordability in Brazil, 1995 to 2022
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21968533.svg)](https://doi.org/10.5281/zenodo.21968533)
+[![DOI](https://zenodo.org/badge/1336139109.svg)](https://doi.org/10.5281/zenodo.21968532)
 
 Reproduction code and manuscript source for a study testing whether utility
 planning variables (investment level and stability, financing structure,
@@ -60,8 +59,11 @@ versions used.
 
 ## Citation
 
-If you use this code, please cite it via its Zenodo DOI:
-[10.5281/zenodo.21968533](https://doi.org/10.5281/zenodo.21968533).
+If you use this code, please cite it via its Zenodo DOI. The badge above
+([10.5281/zenodo.21968532](https://doi.org/10.5281/zenodo.21968532)) always
+resolves to the latest release; the manuscript cites the version specific
+DOI for the exact snapshot used to produce its results,
+[10.5281/zenodo.21968533](https://doi.org/10.5281/zenodo.21968533) (v1.0.0).
 
 If you use the study's findings, please cite the manuscript (citation
 details to be added on publication).

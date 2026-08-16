@@ -1267,3 +1267,41 @@ efetivamente subir no Zenodo e me passar o DOI real para inserir no artigo.
 - Compilação final verificada limpa (`pdflatex`×2 + `bibtex`, 35 páginas,
   sem erros nem referências indefinidas), páginas 17 (Table 6), 23-24
   (seção 2033 simplificada) inspecionadas visualmente via `pdftoppm`.
+
+## 20. Segunda rodada do mesmo revisor: 4 ajustes objetivos finais
+
+Revisor confirmou que os 4 pontos maiores (interpretação causal, período
+2012-2022, cenários 2033, reprodutibilidade) foram corrigidos, e pediu 4
+ajustes menores antes de considerar o artigo pronto para submissão:
+
+**A) Título trocado.** De "Testing Whether Utility Planning Moves Water and
+Sanitation Affordability A Three Decade Municipal Panel and Coverage
+Forecast for Brazil" (sem pontuação, "moves" sugeria causalidade, só citava
+coverage forecast) para "Utility Planning and Water and Sanitation Tariff
+Burdens in Brazil: A Three-Decade Municipal Panel and Conditional Scenarios
+to 2033" (a opção que o próprio revisor indicou como a que melhor
+representa o artigo atual). Esse título usa dois-pontos e hífen
+propositalmente, é a exceção já aceita de que a regra "sem travessão/dois
+pontos" vale para a prosa do corpo do texto, não para o título.
+
+**B) Resumo reduzido.** Cortado de ~9 frases cobrindo praticamente todos os
+achados secundários (trade-off regional, crescimento, clima, água x esgoto)
+para 4 frases focadas exatamente nos 4 resultados centrais pedidos: (1)
+ausência de associação robusta no painel completo, (2) não uniformidade
+2012-2022, (3) gradiente por porte municipal, (4) fraco desempenho preditivo
++ divergência dos 3 cenários 2033.
+
+**C) "customer facing equity gradient" → "municipal-size tariff-burden
+gradient"** em todas as 5 ocorrências (resumo, introdução, resultados 4.1,
+discussão, conclusão), evitando a insinuação de que o painel mede equidade
+entre clientes diretamente (só mede dispersão do indicador agregado por
+porte de município).
+
+**D) Erros-padrão agrupados na Table 6.** Adicionados abaixo de cada
+coeficiente (clustered at municipality level, os mesmos já usados no resto
+do artigo), extraídos dos mesmos outputs salvos
+(`resultados_modelo_painel.txt`, `robustez_renda_estadual_modelo.txt`).
+
+- Compilação final verificada limpa (`pdflatex`×2 + `bibtex`, 35 páginas,
+  sem erros nem referências indefinidas), página 1 (título/resumo) e página
+  17 (Table 6 com SEs) inspecionadas visualmente via `pdftoppm`.

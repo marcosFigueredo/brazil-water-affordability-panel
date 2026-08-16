@@ -1305,3 +1305,60 @@ do artigo), extraídos dos mesmos outputs salvos
 - Compilação final verificada limpa (`pdflatex`×2 + `bibtex`, 35 páginas,
   sem erros nem referências indefinidas), página 1 (título/resumo) e página
   17 (Table 6 com SEs) inspecionadas visualmente via `pdftoppm`.
+
+## 21. Repositório git criado, Zenodo/DOI, e correção do período efetivo da regressão
+
+**Git/GitHub/Zenodo:** repositório inicializado, `.gitignore` excluindo CSVs
+grandes (>1MB, reconstruíveis) e o PDF de referência com direito autoral,
+95 arquivos no commit inicial. Publicado em
+`github.com/marcosFigueredo/brazil-water-affordability-panel`, conectado ao
+Zenodo via integração nativa GitHub→Zenodo, release `v1.0.0` gerou DOI real
+`10.5281/zenodo.21968533` (versão específica) e `10.5281/zenodo.21968532`
+(DOI "concept", aponta sempre pra última versão). Ambos inseridos: o
+concept DOI no badge do `README.md`, o DOI de versão específica como
+referência bibliográfica formal no artigo (`Figueredo2026Repo` em
+`sn-bibliography.bib`, citado via `\citep` no Data/Code availability).
+Problema técnico encontrado e resolvido: o Google Drive injeta `desktop.ini`
+dentro de subpastas do `.git` (inclusive `.git/objects/`), corrompendo
+`git fetch`/`push`; solução é `find .git -iname "desktop.ini" -delete`
+sempre que acontecer de novo.
+
+**Correção crítica do período efetivo da regressão.** Usuário notou que o
+resumo e a Table 6 diziam "full panel 1995-2022", mas a seção de dados já
+declarava que a especificação completa era estimada em "2001 to 2021".
+Investigação numérica direta (não estimativa) confirmou:
+- **Coluna 1 "full panel"**: na verdade **2001-2021** (N=41.720) — já
+  sabíamos, mas não estava refletido no resumo/Table 6/discussão/conclusão.
+- **Coluna 2 "2012-2022 (ICR-SM)"**: na verdade **2012-2021** (N=29.150,
+  confirmado linha a linha por ano).
+- **Coluna 3 "2012-2022 (denominador estadual)"**: na verdade **2012-2020**
+  (N=25.846, confirmado linha a linha por ano) — ainda mais restrita.
+
+**Causa raiz identificada**: `log_populacao_urbana` (IBGE SIDRA tabela
+6579) tem **zero observações válidas em 2022** nessa versão do painel,
+derrubando 2022 de toda especificação que a inclui (todas as 3 colunas). A
+coluna 3 fica ainda mais restrita porque o denominador de renda estadual
+(PNADC) também não tem dados válidos em 2021-2022 na amostra usada.
+
+Corrigido em todos os pontos pedidos: resumo, Table 6 (cabeçalho das
+colunas + nota explicando a causa raiz), Results 4.2 (texto + tabela),
+Discussion (abertura), Conclusion (parágrafo 1). Distinção mantida clara
+em todo o texto: painel construído a partir dos registros SNIS = 1995-2022;
+amostra de estimação principal = 2001-2021; sub-períodos recentes =
+2012-2021 e 2012-2020 (não mais "2012-2022").
+
+**Dois ajustes menores também aplicados:**
+- "genuine uncertainty" → "evidence of sensitivity to forecasting
+  assumptions" no resumo e na seção de validação do ML de cobertura
+  (mesma lógica, os cenários não são previsões validadas de 11 anos).
+- "heterogeneity across municipalities accounts for the large majority of
+  the variation" → "the observed variation is predominantly between
+  municipalities rather than within municipalities over time", em todas as
+  5 ocorrências (resumo, introdução, discussão, conclusão), evitando a
+  linguagem de "heterogeneidade explica X%" que soa mais causal do que o
+  R² between (de uma regressão auxiliar) realmente sustenta.
+
+- Compilação final verificada limpa (`pdflatex`×2 + `bibtex`, 35 páginas,
+  sem erros nem referências indefinidas), página 1 (resumo) e página 17
+  (Table 6 com períodos e nota corrigidos) inspecionadas visualmente via
+  `pdftoppm`.

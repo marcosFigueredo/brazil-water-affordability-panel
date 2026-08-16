@@ -1,6 +1,6 @@
 %% BioMed_Central_Bib_Style_v1.01
 
-\begin{thebibliography}{28}
+\begin{thebibliography}{29}
 % BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
 \ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
 \ifx \binits  \undefined \def \binits#1{#1}\fi
@@ -601,6 +601,19 @@ SGR: 105004894743; Cited by: 3; Author affiliations: R.W., Nongbri, Rida Wanbha
   Ecosystems and Valorization of Spontaneous Plants, Tunisia); B., Raggad,
   Bechir (Majmaah University, Saudi Arabia)}
 \end{barticle}
+\endbibitem
+
+%%% 29
+\bibitem[\protect\citeauthoryear{Figueredo}{2026}]{Figueredo2026Repo}
+\begin{botherref}
+\oauthor{\bsnm{Figueredo}, \binits{M.B.}}:
+Water and sanitation affordability in {Brazil}, 1995 to 2022: reproduction
+  code.
+Zenodo
+(2026).
+\doiurl{10.5281/zenodo.21968533} .
+\url{https://doi.org/10.5281/zenodo.21968533}
+\end{botherref}
 \endbibitem
 
 \end{thebibliography}

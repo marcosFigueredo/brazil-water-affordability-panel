@@ -1,0 +1,46 @@
+# Large raw/intermediate data files. These are either raw pulls from public
+# sources (SNIS, IBGE) or intermediate outputs fully reconstructible by
+# rerunning the numbered scripts in scripts/ against those public sources.
+# The constructed panel and intermediate datasets are deposited separately
+# on Zenodo (see Data availability in the manuscript) rather than tracked
+# here, to keep the code repository small.
+br_painel_analise_final.csv
+br_mdr_snis_municipio_agua_esgoto.csv
+br_painel_icr_sm.csv
+br_crescimento_populacao_pib_servicos_municipio.csv
+br_ibge_pib_populacao_municipio.csv
+br_icr_renda_estadual.csv
+holdout_predicoes_ml_icr.csv
+holdout_predicoes_ml.csv
+br_projecao_icr_2033_rf.csv
+br_projecao_icr_2033_ml.csv
+comparacao_metodos_2033.csv
+relatorio_resultados.html
+
+# Copyrighted third-party reference material (journal PDF), not ours to
+# redistribute.
+sn-article-template/referencias/
+
+# Scratch / working files, not part of the deliverable.
+tmp_reference.txt
+desktop.ini
+
+# LaTeX build byproducts. sn-article.pdf and sn-article.bbl are kept
+# (bbl is needed to rebuild the PDF without rerunning bibtex).
+sn-article-template/*.aux
+sn-article-template/*.log
+sn-article-template/*.out
+sn-article-template/*.blg
+sn-article-template/*.fdb_latexmk
+sn-article-template/*.fls
+sn-article-template/*.xdv
+sn-article-template/*-eps-converted-to.pdf
+sn-article-template/compile_title.log
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db

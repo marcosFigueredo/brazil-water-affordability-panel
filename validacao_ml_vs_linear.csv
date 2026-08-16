@@ -1,0 +1,4 @@
+metodo,MAE,RMSE,N_teste
+Gradient Boosting (ML),3.264415131379061,8.931883223544235,25978
+Persistencia (repete ultimo valor),2.1599160828393256,8.832710532354817,25978
+Extrapolacao linear por municipio,6.4682393669840375,14.448181491701162,25385

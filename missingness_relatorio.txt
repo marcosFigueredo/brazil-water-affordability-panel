@@ -1,0 +1,51 @@
+=== Missingness geral (1995-2022, todas as linhas) ===
+ICR_SM                                          96057/119256 ( 80.5%)
+investimento_percapita                          84475/119256 ( 70.8%)
+investimento_percapita_lag1                     79787/119256 ( 66.9%)
+cv_investimento_5a                              69861/119256 ( 58.6%)
+cv_investimento_5a_lag1                         65374/119256 ( 54.8%)
+prop_financiamento_oneroso                      56318/119256 ( 47.2%)
+prop_financiamento_oneroso_lag1                 52056/119256 ( 43.7%)
+indice_perda_faturamento                        94509/119256 ( 79.2%)
+indice_perda_faturamento_lag1                   88989/119256 ( 74.6%)
+indice_atendimento_urbano_agua                  93876/119256 ( 78.7%)
+indice_coleta_esgoto                            39437/119256 ( 33.1%)
+log_populacao_urbana                           113831/119256 ( 95.5%)
+regiao                                         119256/119256 (100.0%)
+pib_per_capita_reais                           102339/119256 ( 85.8%)
+log_pib_per_capita                             102338/119256 ( 85.8%)
+crescimento_populacional_pct_aa                 98187/119256 ( 82.3%)
+crescimento_va_servicos_pct_aa                  92762/119256 ( 77.8%)
+expectativa_crescimento_populacional_pct_aa    119202/119256 (100.0%)
+anomalia_precipitacao_pct                      119256/119256 (100.0%)
+
+=== Missingness restrito a 2002-2022 ===
+ICR_SM                                          91480/102340 ( 89.4%)
+investimento_percapita                          83019/102340 ( 81.1%)
+investimento_percapita_lag1                     79420/102340 ( 77.6%)
+cv_investimento_5a                              69680/102340 ( 68.1%)
+cv_investimento_5a_lag1                         65303/102340 ( 63.8%)
+prop_financiamento_oneroso                      55242/102340 ( 54.0%)
+prop_financiamento_oneroso_lag1                 51707/102340 ( 50.5%)
+indice_perda_faturamento                        92596/102340 ( 90.5%)
+indice_perda_faturamento_lag1                   88434/102340 ( 86.4%)
+indice_atendimento_urbano_agua                  89219/102340 ( 87.2%)
+indice_coleta_esgoto                            38699/102340 ( 37.8%)
+log_populacao_urbana                            96915/102340 ( 94.7%)
+regiao                                         102340/102340 (100.0%)
+pib_per_capita_reais                           102339/102340 (100.0%)
+log_pib_per_capita                             102338/102340 (100.0%)
+crescimento_populacional_pct_aa                 98187/102340 ( 95.9%)
+crescimento_va_servicos_pct_aa                  92762/102340 ( 90.6%)
+expectativa_crescimento_populacional_pct_aa    102293/102340 (100.0%)
+anomalia_precipitacao_pct                      102340/102340 (100.0%)
+
+=== Linhas com TODAS as variaveis do modelo principal (H1/H2, defasado) nao-nulas ===
+41720 / 119256 linhas (35.0%)
+Municipios distintos nessa amostra: 4707
+Anos cobertos: 2001 - 2021
+
+=== Linhas com modelo completo INCLUINDO PIB/crescimento/clima (H4) ===
+41573 / 119256 linhas (34.9%)
+Municipios distintos: 4707
+Anos cobertos: 2003 - 2021

@@ -1,0 +1,5 @@
+especificacao,N,municipios,r2_between,r2_within,n_variaveis_significativas,variaveis_significativas
+"Original (defasado, CV 5a)",41720,4707,0.8491790673987769,-0.012822982337548305,0,(nenhuma)
+(a) Contemporaneo (sem defasagem),44889,4740,0.8533032237655764,-0.014623780157679622,3,"cv_investimento_5a, indice_perda_faturamento, log_populacao_urbana"
+"(b) Defasado, CV janela 3 anos",40673,4680,0.871611582610643,-0.015036178007294732,1,log_populacao_urbana
+"(c) Defasado, CV janela 10 anos",37057,4552,0.8706287258481923,-0.01187885305340397,1,log_populacao_urbana

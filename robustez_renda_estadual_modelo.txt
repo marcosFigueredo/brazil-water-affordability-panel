@@ -1,0 +1,84 @@
+Correlacao ICR_SM x ICR_renda_UF (N=49190): 0.785
+
+Mediana por regiao:
+              ICR_SM  ICR_renda_UF
+regiao                            
+Centro-Oeste    6.30          1.76
+Nordeste        4.57          1.77
+Norte           4.96          1.60
+Sudeste         5.88          1.51
+Sul             7.44          1.80
+
+=== Modelo 1, dependente=ICR_renda_UF (N=25846) ===
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:           ICR_renda_UF   R-squared:                        0.0051
+Estimator:                   PanelOLS   R-squared (Between):             -1.7067
+No. Observations:               25846   R-squared (Within):               0.0095
+Date:                Sat, Aug 15 2026   R-squared (Overall):             -1.7151
+Time:                        09:00:23   Log-likelihood                   -8388.8
+Cov. Estimator:             Clustered                                           
+                                        F-statistic:                      22.060
+Entities:                        4433   P-value                           0.0000
+Avg Obs:                       5.8304   Distribution:                 F(5,21400)
+Min Obs:                       1.0000                                           
+Max Obs:                       9.0000   F-statistic (robust):             14.723
+                                        P-value                           0.0000
+Time periods:                       9   Distribution:                 F(5,21400)
+Avg Obs:                       2871.8                                           
+Min Obs:                       2475.0                                           
+Max Obs:                       3155.0                                           
+                                                                                
+                                        Parameter Estimates                                        
+===================================================================================================
+                                 Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+---------------------------------------------------------------------------------------------------
+investimento_percapita_lag1     -2.784e-05  2.192e-05    -1.2704     0.2040   -7.08e-05   1.512e-05
+cv_investimento_5a_lag1            -0.0266     0.0094    -2.8235     0.0048     -0.0450     -0.0081
+prop_financiamento_oneroso_lag1    -0.0715     0.0131    -5.4774     0.0000     -0.0971     -0.0459
+indice_perda_faturamento_lag1       0.0001     0.0003     0.3320     0.7399     -0.0005      0.0007
+log_populacao_urbana                0.5403     0.1517     3.5629     0.0004      0.2431      0.8376
+===================================================================================================
+
+F-test for Poolability: 19.131
+P-value: 0.0000
+Distribution: F(4440,21400)
+
+Included effects: Entity, Time
+
+=== CHECAGEM DE ISOLAMENTO: Modelo 1 com ICR_SM, MESMA amostra 2012-2022 (N=29150) ===
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:                 ICR_SM   R-squared:                        0.0016
+Estimator:                   PanelOLS   R-squared (Between):             -1.8674
+No. Observations:               29150   R-squared (Within):              -0.0001
+Date:                Sat, Aug 15 2026   R-squared (Overall):             -1.8419
+Time:                        09:00:25   Log-likelihood                -4.169e+04
+Cov. Estimator:             Clustered                                           
+                                        F-statistic:                      7.7661
+Entities:                        4475   P-value                           0.0000
+Avg Obs:                       6.5140   Distribution:                 F(5,24661)
+Min Obs:                       1.0000                                           
+Max Obs:                      10.0000   F-statistic (robust):             5.6289
+                                        P-value                           0.0000
+Time periods:                      10   Distribution:                 F(5,24661)
+Avg Obs:                       2915.0                                           
+Min Obs:                       2475.0                                           
+Max Obs:                       3304.0                                           
+                                                                                
+                                        Parameter Estimates                                        
+===================================================================================================
+                                 Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+---------------------------------------------------------------------------------------------------
+investimento_percapita_lag1     -2.374e-05   5.54e-05    -0.4286     0.6682     -0.0001   8.484e-05
+cv_investimento_5a_lag1            -0.0238     0.0236    -1.0098     0.3126     -0.0700      0.0224
+prop_financiamento_oneroso_lag1    -0.1874     0.0393    -4.7667     0.0000     -0.2645     -0.1103
+indice_perda_faturamento_lag1      -0.0004     0.0010    -0.3709     0.7107     -0.0022      0.0015
+log_populacao_urbana               -0.5239     0.7283    -0.7193     0.4720     -1.9514      0.9036
+===================================================================================================
+
+F-test for Poolability: 28.812
+P-value: 0.0000
+Distribution: F(4483,24661)
+
+Included effects: Entity, Time

@@ -1,0 +1,13 @@
+feature,importancia
+cobertura_lag1,1.3030485056932075
+regiao,0.0034639928866327272
+crescimento_populacional_pct_aa,0.0018878693424622783
+ano,0.0
+prop_financiamento_oneroso_lag1,-0.0001841089089216208
+log_pib_per_capita,-0.0003063830638051046
+crescimento_va_servicos_pct_aa,-0.00044893113860902114
+log_populacao_urbana,-0.003281949882288604
+cv_investimento_5a_lag1,-0.003336373967477191
+anomalia_precipitacao_pct,-0.0075418173171028615
+investimento_percapita_lag1,-0.010677820528831839
+indice_perda_faturamento_lag1,-0.02185713047604343

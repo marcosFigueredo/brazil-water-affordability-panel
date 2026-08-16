@@ -1,0 +1,162 @@
+======================================================================
+MODELO 1 (H1+H2): planejamento defasado -> ICR_SM | N=41720 | municipios=4707
+======================================================================
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:                 ICR_SM   R-squared:                        0.0008
+Estimator:                   PanelOLS   R-squared (Between):              0.8492
+No. Observations:               41720   R-squared (Within):              -0.0128
+Date:                Fri, Aug 14 2026   R-squared (Overall):              0.8245
+Time:                        17:08:23   Log-likelihood                -7.194e+04
+Cov. Estimator:             Clustered                                           
+                                        F-statistic:                      6.0329
+Entities:                        4707   P-value                           0.0000
+Avg Obs:                       8.8634   Distribution:                 F(5,36988)
+Min Obs:                       1.0000                                           
+Max Obs:                       21.000   F-statistic (robust):             1.5167
+                                        P-value                           0.1807
+Time periods:                      21   Distribution:                 F(5,36988)
+Avg Obs:                       1986.7                                           
+Min Obs:                       67.000                                           
+Max Obs:                       3304.0                                           
+                                                                                
+                                        Parameter Estimates                                        
+===================================================================================================
+                                 Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+---------------------------------------------------------------------------------------------------
+investimento_percapita_lag1     -2.339e-05   3.87e-05    -0.6043     0.5456  -9.924e-05   5.247e-05
+cv_investimento_5a_lag1            -0.0154     0.0262    -0.5872     0.5571     -0.0667      0.0359
+prop_financiamento_oneroso_lag1     0.0345     0.0357     0.9665     0.3338     -0.0355      0.1046
+indice_perda_faturamento_lag1      -0.0012     0.0009    -1.2862     0.1984     -0.0030      0.0006
+log_populacao_urbana                0.5950     0.3232     1.8409     0.0657     -0.0385      1.2286
+===================================================================================================
+
+F-test for Poolability: 25.560
+P-value: 0.0000
+Distribution: F(4726,36988)
+
+Included effects: Entity, Time
+
+======================================================================
+MODELO 2 (H3): cobertura x regiao -> ICR_SM (baseline regiao = Sudeste) | N=90952 | municipios=5462
+======================================================================
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:                 ICR_SM   R-squared:                        0.0031
+Estimator:                   PanelOLS   R-squared (Between):             -0.8893
+No. Observations:               90952   R-squared (Within):               0.0076
+Date:                Fri, Aug 14 2026   R-squared (Overall):             -0.7626
+Time:                        17:08:24   Log-likelihood                 -1.96e+05
+Cov. Estimator:             Clustered                                           
+                                        F-statistic:                      44.339
+Entities:                        5462   P-value                           0.0000
+Avg Obs:                       16.652   Distribution:                 F(6,85458)
+Min Obs:                       1.0000                                           
+Max Obs:                       27.000   F-statistic (robust):             1.7967
+                                        P-value                           0.0954
+Time periods:                      27   Distribution:                 F(6,85458)
+Avg Obs:                       3368.6                                           
+Min Obs:                       28.000                                           
+Max Obs:                       5025.0                                           
+                                                                                
+                                       Parameter Estimates                                        
+==================================================================================================
+                                Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+--------------------------------------------------------------------------------------------------
+indice_atendimento_urbano_agua    -0.0197     0.0091    -2.1750     0.0296     -0.0375     -0.0020
+cobertura_x_Norte                  0.0251     0.0103     2.4415     0.0146      0.0049      0.0452
+cobertura_x_Nordeste               0.0075     0.0127     0.5911     0.5544     -0.0174      0.0323
+cobertura_x_CentroOeste            0.0249     0.0107     2.3192     0.0204      0.0039      0.0459
+cobertura_x_Sul                    0.0140     0.0099     1.4155     0.1569     -0.0054      0.0335
+log_populacao_urbana              -0.1980     0.3256    -0.6079     0.5433     -0.8362      0.4403
+==================================================================================================
+
+F-test for Poolability: 27.198
+P-value: 0.0000
+Distribution: F(5487,85458)
+
+Included effects: Entity, Time
+
+======================================================================
+MODELO 3 (H4): pressao de crescimento -> ICR_SM | N=41573 | municipios=4707
+======================================================================
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:                 ICR_SM   R-squared:                        0.0054
+Estimator:                   PanelOLS   R-squared (Between):             -0.1729
+No. Observations:               41573   R-squared (Within):              -0.1194
+Date:                Fri, Aug 14 2026   R-squared (Overall):             -0.0792
+Time:                        17:08:25   Log-likelihood                 -7.15e+04
+Cov. Estimator:             Clustered                                           
+                                        F-statistic:                      22.100
+Entities:                        4707   P-value                           0.0000
+Avg Obs:                       8.8322   Distribution:                 F(9,36839)
+Min Obs:                       1.0000                                           
+Max Obs:                       19.000   F-statistic (robust):             4.5698
+                                        P-value                           0.0000
+Time periods:                      19   Distribution:                 F(9,36839)
+Avg Obs:                       2188.1                                           
+Min Obs:                       128.00                                           
+Max Obs:                       3304.0                                           
+                                                                                
+                                        Parameter Estimates                                        
+===================================================================================================
+                                 Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+---------------------------------------------------------------------------------------------------
+investimento_percapita_lag1     -2.794e-05  3.971e-05    -0.7035     0.4818     -0.0001    4.99e-05
+cv_investimento_5a_lag1            -0.0182     0.0261    -0.6974     0.4856     -0.0693      0.0329
+prop_financiamento_oneroso_lag1     0.0388     0.0361     1.0748     0.2825     -0.0319      0.1095
+indice_perda_faturamento_lag1      -0.0012     0.0009    -1.2988     0.1940     -0.0031      0.0006
+log_populacao_urbana                0.9124     0.3449     2.6454     0.0082      0.2364      1.5885
+log_pib_per_capita                  0.5603     0.1227     4.5677     0.0000      0.3199      0.8008
+crescimento_populacional_pct_aa    -0.0194     0.0137    -1.4149     0.1571     -0.0462      0.0075
+crescimento_va_servicos_pct_aa     -0.0033     0.0007    -4.9809     0.0000     -0.0046     -0.0020
+anomalia_precipitacao_pct          -0.0001     0.0005    -0.2406     0.8099     -0.0010      0.0008
+===================================================================================================
+
+F-test for Poolability: 21.790
+P-value: 0.0000
+Distribution: F(4724,36839)
+
+Included effects: Entity, Time
+
+======================================================================
+MODELO 4 (H4, trade-off): pressao de crescimento -> cobertura de agua | N=42421 | municipios=4727
+======================================================================
+                                PanelOLS Estimation Summary                                 
+============================================================================================
+Dep. Variable:     indice_atendimento_urbano_agua   R-squared:                        0.0056
+Estimator:                               PanelOLS   R-squared (Between):             -1.9885
+No. Observations:                           42421   R-squared (Within):               0.0061
+Date:                            Fri, Aug 14 2026   R-squared (Overall):             -2.0289
+Time:                                    17:08:26   Log-likelihood                -1.407e+05
+Cov. Estimator:                         Clustered                                           
+                                                    F-statistic:                      35.073
+Entities:                                    4727   P-value                           0.0000
+Avg Obs:                                   8.9742   Distribution:                 F(6,37670)
+Min Obs:                                   1.0000                                           
+Max Obs:                                   19.000   F-statistic (robust):             7.9358
+                                                    P-value                           0.0000
+Time periods:                                  19   Distribution:                 F(6,37670)
+Avg Obs:                                   2232.7                                           
+Min Obs:                                   132.00                                           
+Max Obs:                                   3319.0                                           
+                                                                                            
+                                        Parameter Estimates                                        
+===================================================================================================
+                                 Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+---------------------------------------------------------------------------------------------------
+investimento_percapita_lag1      7.664e-05     0.0001     0.6338     0.5262     -0.0002      0.0003
+cv_investimento_5a_lag1             0.0198     0.1398     0.1414     0.8875     -0.2543      0.2939
+prop_financiamento_oneroso_lag1    -0.0812     0.1768    -0.4593     0.6460     -0.4277      0.2653
+log_populacao_urbana               -7.5439     1.5460    -4.8797     0.0000     -10.574     -4.5138
+crescimento_populacional_pct_aa    -0.1059     0.0361    -2.9361     0.0033     -0.1766     -0.0352
+crescimento_va_servicos_pct_aa      0.0012     0.0024     0.4849     0.6277     -0.0035      0.0058
+===================================================================================================
+
+F-test for Poolability: 26.014
+P-value: 0.0000
+Distribution: F(4744,37670)
+
+Included effects: Entity, Time
+

@@ -1,0 +1,606 @@
+%% BioMed_Central_Bib_Style_v1.01
+
+\begin{thebibliography}{28}
+% BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
+\ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
+\ifx \binits  \undefined \def \binits#1{#1}\fi
+\ifx \bauthor  \undefined \def \bauthor#1{#1}\fi
+\ifx \batitle  \undefined \def \batitle#1{#1}\fi
+\ifx \bjtitle  \undefined \def \bjtitle#1{#1}\fi
+\ifx \bvolume  \undefined \def \bvolume#1{\textbf{#1}}\fi
+\ifx \byear  \undefined \def \byear#1{#1}\fi
+\ifx \bissue  \undefined \def \bissue#1{#1}\fi
+\ifx \bfpage  \undefined \def \bfpage#1{#1}\fi
+\ifx \blpage  \undefined \def \blpage #1{#1}\fi
+\ifx \burl  \undefined \def \burl#1{\textsf{#1}}\fi
+\ifx \doiurl  \undefined \def \doiurl#1{\url{https://doi.org/#1}}\fi
+\ifx \betal  \undefined \def \betal{\textit{et al.}}\fi
+\ifx \binstitute  \undefined \def \binstitute#1{#1}\fi
+\ifx \binstitutionaled  \undefined \def \binstitutionaled#1{#1}\fi
+\ifx \bctitle  \undefined \def \bctitle#1{#1}\fi
+\ifx \beditor  \undefined \def \beditor#1{#1}\fi
+\ifx \bpublisher  \undefined \def \bpublisher#1{#1}\fi
+\ifx \bbtitle  \undefined \def \bbtitle#1{#1}\fi
+\ifx \bedition  \undefined \def \bedition#1{#1}\fi
+\ifx \bseriesno  \undefined \def \bseriesno#1{#1}\fi
+\ifx \blocation  \undefined \def \blocation#1{#1}\fi
+\ifx \bsertitle  \undefined \def \bsertitle#1{#1}\fi
+\ifx \bsnm \undefined \def \bsnm#1{#1}\fi
+\ifx \bsuffix \undefined \def \bsuffix#1{#1}\fi
+\ifx \bparticle \undefined \def \bparticle#1{#1}\fi
+\ifx \barticle \undefined \def \barticle#1{#1}\fi
+\bibcommenthead
+\ifx \bconfdate \undefined \def \bconfdate #1{#1}\fi
+\ifx \botherref \undefined \def \botherref #1{#1}\fi
+\ifx \url \undefined \def \url#1{\textsf{#1}}\fi
+\ifx \bchapter \undefined \def \bchapter#1{#1}\fi
+\ifx \bbook \undefined \def \bbook#1{#1}\fi
+\ifx \bcomment \undefined \def \bcomment#1{#1}\fi
+\ifx \oauthor \undefined \def \oauthor#1{#1}\fi
+\ifx \citeauthoryear \undefined \def \citeauthoryear#1{#1}\fi
+\ifx \endbibitem  \undefined \def \endbibitem {}\fi
+\ifx \bconflocation  \undefined \def \bconflocation#1{#1}\fi
+\ifx \arxivurl  \undefined \def \arxivurl#1{\textsf{#1}}\fi
+\csname PreBibitemsHook\endcsname
+
+%%% 1
+\bibitem[\protect\citeauthoryear{Fagundes et~al.}{2025}]{Fagundes2025b}
+\begin{barticle}
+\bauthor{\bsnm{Fagundes}, \binits{T.S.}},
+\bauthor{\bsnm{Marques}, \binits{R.C.}},
+\bauthor{\bsnm{Malheiros}, \binits{T.F.}}:
+\batitle{A {Comprehensive} {Framework} for {Water} {Affordability} {Analysis}}.
+\bjtitle{Water Resources Management}
+\bvolume{39}(\bissue{6}),
+\bfpage{2527}--\blpage{2549}
+(\byear{2025})
+\doiurl{10.1007/s11269-024-04076-4} .
+\bcomment{SGR: 105004008415; Cited by: 9; Author affiliations: T.S., Fagundes,
+  Thalita Salgado (CERIS -- Civil Engineering Research and Innovation for
+  Sustainability, Portugal); R.C., Marques, Rui Cunha (Research Centre in Asset
+  Management and Systems Engineering (RCM2+), Portugal); T.F., Malheiros, Tadeu
+  Fabr{\' i}cio (Department of Hydraulics and Sanitation, Brazil)}
+\end{barticle}
+\endbibitem
+
+%%% 2
+\bibitem[\protect\citeauthoryear{Skerker et~al.}{2024}]{Skerker2024}
+\begin{botherref}
+\oauthor{\bsnm{Skerker}, \binits{J.B.}},
+\oauthor{\bsnm{Verma}, \binits{A.}},
+\oauthor{\bsnm{Edwards}, \binits{M.R.}},
+\oauthor{\bsnm{Rachunok}, \binits{B.A.}},
+\oauthor{\bsnm{Fletcher}, \binits{S.M.}}:
+Alternative household water affordability metrics using water bill delinquency
+  behavior.
+Environmental Research Letters
+\textbf{19}(7)
+(2024)
+\doiurl{10.1088/1748-9326/ad5609} .
+SGR: 85201273187; Cited by: 4; Author affiliations: J.B., Skerker, Jennifer
+  Beth (Stanford University, United States); A., Verma, Aniket (Stanford
+  University, United States); M.R., Edwards, Morgan R. (University of
+  Wisconsin-Madison, United States); B.A., Rachunok, Benjamin A. (NC State
+  College of Engineering, United States); S.M., Fletcher, Sarah M. (Stanford
+  Woods Institute for the Environment, United States)
+\end{botherref}
+\endbibitem
+
+%%% 3
+\bibitem[\protect\citeauthoryear{Patterson et~al.}{2023}]{Patterson2023}
+\begin{botherref}
+\oauthor{\bsnm{Patterson}, \binits{L.A.}},
+\oauthor{\bsnm{Bryson}, \binits{S.A.}},
+\oauthor{\bsnm{Doyle}, \binits{M.W.}}:
+Affordability of household water services across the {United} {States}.
+PLOS Water
+\textbf{2}(5 May)
+(2023)
+\doiurl{10.1371/journal.pwat.0000123} .
+SGR: 85197448871; Cited by: 24; Author affiliations: L.A., Patterson, Lauren A.
+  (Environment and Sustainability, United States); S.A., Bryson, Sophia A.
+  (Duke University, United States); M.W., Doyle, Martin W. (Nicholas Institute
+  for Energy Environment \& Sustainability, United States)
+\end{botherref}
+\endbibitem
+
+%%% 4
+\bibitem[\protect\citeauthoryear{Romero-Gomez et~al.}{2024}]{RomeroGomez2024}
+\begin{botherref}
+\oauthor{\bsnm{Romero-Gomez}, \binits{G.}},
+\oauthor{\bsnm{Domene}, \binits{E.}},
+\oauthor{\bsnm{Garcia}, \binits{X.G.}},
+\oauthor{\bsnm{Yoon}, \binits{H.}},
+\oauthor{\bsnm{Saur{\' i}}, \binits{D.}}:
+Socio-{Spatial} {Analysis} of {Water} {Affordability} at {Small} {Scales}: A
+  {Needs}-{Based} {Approach}.
+Water (Switzerland)
+\textbf{16}(11)
+(2024)
+\doiurl{10.3390/w16111496} .
+SGR: 85195789174; Cited by: 5; Author affiliations: G., Romero-Gomez, Gustavo
+  (Universitat Aut{\` o}noma de Barcelona, Spain); E., Domene, Elena (Institut
+  Metr{\` o}poli, Spain); X.G., Garcia, Xavier Garcia (Catalan Institute for
+  Water Research, Spain); H., Yoon, Hyerim (Universitat Aut{\` o}noma de
+  Barcelona, Spain); D., Saur{\' i}, David (Universitat Aut{\` o}noma de
+  Barcelona, Spain)
+\end{botherref}
+\endbibitem
+
+%%% 5
+\bibitem[\protect\citeauthoryear{Pierce et~al.}{2021}]{Pierce2021}
+\begin{botherref}
+\oauthor{\bsnm{Pierce}, \binits{G.}},
+\oauthor{\bsnm{El-Khattabi}, \binits{A.R.}},
+\oauthor{\bsnm{Gmoser-Daskalakis}, \binits{K.}},
+\oauthor{\bsnm{Chow}, \binits{N.}}:
+Solutions to the problem of drinking water service affordability: A review of
+  the evidence.
+Wiley Interdisciplinary Reviews: Water
+\textbf{8}(4)
+(2021)
+\doiurl{10.1002/wat2.1522} .
+SGR: 85103187869; Cited by: 53; Author affiliations: G., Pierce, Gregory
+  (University of California, Los Angeles, United States); A.R., El-Khattabi,
+  Ahmed Rachid (College of Arts and Sciences, United States); K.,
+  Gmoser-Daskalakis, Kyra (Copernicus Institute of Sustainability,
+  Netherlands); N., Chow, Nicholas (School of Geography and the Environment,
+  United Kingdom)
+\end{botherref}
+\endbibitem
+
+%%% 6
+\bibitem[\protect\citeauthoryear{Teodoro}{2018}]{Teodoro2018}
+\begin{barticle}
+\bauthor{\bsnm{Teodoro}, \binits{M.P.}}:
+\batitle{Measuring household affordability for water and sewer utilities}.
+\bjtitle{Journal - American Water Works Association}
+\bvolume{110}(\bissue{1}),
+\bfpage{13}--\blpage{24}
+(\byear{2018})
+\doiurl{10.5942/jawwa.2018.110.0002} .
+\bcomment{SGR: 85041410051; Cited by: 105; Author affiliations: M.P., Teodoro,
+  Manuel P. (University of Wisconsin-Madison, United States)}
+\end{barticle}
+\endbibitem
+
+%%% 7
+\bibitem[\protect\citeauthoryear{Fagundes et~al.}{2023}]{Fagundes2023}
+\begin{barticle}
+\bauthor{\bsnm{Fagundes}, \binits{T.S.}},
+\bauthor{\bsnm{Marques}, \binits{R.C.}},
+\bauthor{\bsnm{Malheiros}, \binits{T.F.}}:
+\batitle{Water affordability analysis: a critical literature review}.
+\bjtitle{Aqua Water Infrastructure, Ecosystems and Society}
+\bvolume{72}(\bissue{8}),
+\bfpage{1431}--\blpage{1445}
+(\byear{2023})
+\doiurl{10.2166/aqua.2023.035} .
+\bcomment{SGR: 85173625261; Cited by: 28; Author affiliations: T.S., Fagundes,
+  Thalita Salgado (CERIS -- Civil Engineering Research and Innovation for
+  Sustainability, Portugal); R.C., Marques, Rui Cunha (Research Centre in Asset
+  Management and Systems Engineering (RCM2+), Portugal); T.F., Malheiros, Tadeu
+  Fabr{\' i}cio (Department of Hydraulics and Sanitation, Brazil)}
+\end{barticle}
+\endbibitem
+
+%%% 8
+\bibitem[\protect\citeauthoryear{Vanhille et~al.}{2018}]{Vanhille2018}
+\begin{barticle}
+\bauthor{\bsnm{Vanhille}, \binits{J.}},
+\bauthor{\bsnm{Goedem{\' e}}, \binits{T.}},
+\bauthor{\bsnm{Penne}, \binits{T.}},
+\bauthor{\bsnm{Thielen}, \binits{L.}},
+\bauthor{\bsnm{Storms}, \binits{B.}}:
+\batitle{Measuring water affordability in developed economies. {The} added
+  value of a needs-based approach}.
+\bjtitle{Journal of Environmental Management}
+\bvolume{217},
+\bfpage{611}--\blpage{620}
+(\byear{2018})
+\doiurl{10.1016/j.jenvman.2018.03.106} .
+\bcomment{PII: S0301479718303396; SGR: 85045114580; Cited by: 51; Author
+  affiliations: J., Vanhille, Josefine (Universiteit Antwerpen, Belgium); T.,
+  Goedem{\' e}, Tim (Universiteit Antwerpen, Belgium); T., Penne, Tess
+  (Universiteit Antwerpen, Belgium); L., van Thielen, Leen (Thomas More,
+  Belgium, Belgium); B., Storms, Ber{\' e}nice (Universiteit Antwerpen,
+  Belgium)}
+\end{barticle}
+\endbibitem
+
+%%% 9
+\bibitem[\protect\citeauthoryear{Wichman}{2025}]{Wichman2025}
+\begin{botherref}
+\oauthor{\bsnm{Wichman}, \binits{C.J.}}:
+The {Economics} of {Equity} and {Affordability} in {Residential} {Water}
+  {Pricing}.
+Water Economics and Policy
+\textbf{11}(2)
+(2025)
+\doiurl{10.1142/S2382624X25300026} .
+SGR: 105011871273; Cited by: 2; Author affiliations: C.J., Wichman, Casey J.
+  (Georgia Institute of Technology, United States)
+\end{botherref}
+\endbibitem
+
+%%% 10
+\bibitem[\protect\citeauthoryear{Torio and Harris}{2025}]{Torio2025}
+\begin{barticle}
+\bauthor{\bsnm{Torio}, \binits{P.C.}},
+\bauthor{\bsnm{Harris}, \binits{L.M.}}:
+\batitle{Water tariffs and social equity: Towards water service connections and
+  pricing instruments for the poor}.
+\bjtitle{World Water Policy}
+\bvolume{11}(\bissue{1}),
+\bfpage{38}--\blpage{60}
+(\byear{2025})
+\doiurl{10.1002/wwp2.12229} .
+\bcomment{SGR: 85206666392; Author affiliations: P.C., Torio, Philamer C. (City
+  University in Canada, Canada); L.M., Harris, Leila M. (The University of
+  British Columbia, Canada)}
+\end{barticle}
+\endbibitem
+
+%%% 11
+\bibitem[\protect\citeauthoryear{Andr{\' e}s et~al.}{2024}]{Andres2024}
+\begin{botherref}
+\oauthor{\bsnm{Andr{\' e}s}, \binits{L.A.}},
+\oauthor{\bsnm{Garrido}, \binits{J.}},
+\oauthor{\bsnm{Gonzalez}, \binits{J.A.}},
+\oauthor{\bsnm{Marques}, \binits{R.C.}}:
+Assessing regulatory governance for the water and sanitation {Agencies} in
+  {Brazil}.
+Utilities Policy
+\textbf{90}
+(2024)
+\doiurl{10.1016/j.jup.2024.101802} .
+PII: S095717872400095X; SGR: 85199292531; Cited by: 2; Author affiliations:
+  L.A., Andr{\' e}s, Luis Alberto (The World Bank, USA, United States); J.,
+  Garrido, Juliana (The World Bank, USA, United States); J.A., Gonzalez, Julio
+  A. (The World Bank, USA, United States); R.C., Marques, Rui Cunha (Research
+  Centre in Asset Management and Systems Engineering (RCM2+), Portugal)
+\end{botherref}
+\endbibitem
+
+%%% 12
+\bibitem[\protect\citeauthoryear{Barbosa et~al.}{2024}]{Barbosa2024}
+\begin{botherref}
+\oauthor{\bsnm{Barbosa}, \binits{A.}},
+\oauthor{\bsnm{Medeiros}, \binits{F.A.S.D.}},
+\oauthor{\bsnm{Sim{\~ o}es}, \binits{P.}}:
+Governance and {Efficiency} in {Brazilian} {Water} {Utilities}: An {Analysis}
+  {Based} on {Revenue} {Collection} {Efficiency}.
+Water (Switzerland)
+\textbf{16}(17)
+(2024)
+\doiurl{10.3390/w16172483} .
+SGR: 85203854978; Cited by: 3; Author affiliations: A., Barbosa, Alexandro
+  (Universidade Federal do Rio Grande do Norte, Brazil); F.A.S.D., Medeiros,
+  Felipe Anderson Smith De (Postgraduate Program in Health Sciences, Brazil);
+  P., Sim{\~ o}es, Pedro (RCM2+ Research Centre for Asset Management and
+  Systems Engineering, Portugal)
+\end{botherref}
+\endbibitem
+
+%%% 13
+\bibitem[\protect\citeauthoryear{Fagundes and
+  Cunha~Marques}{2025}]{Fagundes2025c}
+\begin{barticle}
+\bauthor{\bsnm{Fagundes}, \binits{T.S.}},
+\bauthor{\bsnm{Cunha~Marques}, \binits{R.}}:
+\batitle{Water privatization in {Brazil}: is the private sector making the same
+  mistakes as in the past?}
+\bjtitle{Water International}
+\bvolume{50}(\bissue{6}),
+\bfpage{583}--\blpage{603}
+(\byear{2025})
+\doiurl{10.1080/02508060.2025.2497742} .
+\bcomment{SGR: 105007607445; Cited by: 1; Author affiliations: T.S., Fagundes,
+  Thalita Salgado (CERIS -- Civil Engineering Research and Innovation for
+  Sustainability, Portugal); R., Cunha Marques, Rui (Department of Industrial
+  Engineering and Management, Portugal)}
+\end{barticle}
+\endbibitem
+
+%%% 14
+\bibitem[\protect\citeauthoryear{Barra et~al.}{2026}]{Barra2026}
+\begin{botherref}
+\oauthor{\bsnm{Barra}, \binits{B.}},
+\oauthor{\bsnm{Lobina}, \binits{E.}},
+\oauthor{\bsnm{Heller}, \binits{L.}}:
+When means undermine ends: an extreme case of financialised water privatisation
+  in {Brazil}.
+Water Security
+\textbf{28}
+(2026)
+\doiurl{10.1016/j.wasec.2026.100207} .
+PII: S2468312426000131; SGR: 105042255859; Author affiliations: B., Barra, B{\'
+  a}rbara (Fundacao Oswaldo Cruz, Brazil); E., Lobina, Emanuele (University of
+  Greenwich Business School, United Kingdom); L., Heller, L{\' e}o (Fundacao
+  Oswaldo Cruz, Brazil)
+\end{botherref}
+\endbibitem
+
+%%% 15
+\bibitem[\protect\citeauthoryear{Bermann and Hermsdorff}{2024}]{Bermann2024}
+\begin{botherref}
+\oauthor{\bsnm{Bermann}, \binits{C.}},
+\oauthor{\bsnm{Hermsdorff}, \binits{S.M.G.L.}}:
+Environmental injustice in the privatization of {Brazilian} sanitation: an
+  empirical analysis.
+Frontiers in Water
+\textbf{6}
+(2024)
+\doiurl{10.3389/frwa.2024.1211629} .
+SGR: 85188466094; Author affiliations: C., Bermann, Celio (Institute of Energy
+  and Environment, Brazil); S.M.G.L., Hermsdorff, Sonia Maria Gaspar Lontro
+  (Universidade de S{\~ a}o Paulo, Brazil)
+\end{botherref}
+\endbibitem
+
+%%% 16
+\bibitem[\protect\citeauthoryear{Amorim et~al.}{2025}]{Amorim2025}
+\begin{barticle}
+\bauthor{\bsnm{Amorim}, \binits{D.P.D.L.}},
+\bauthor{\bsnm{Resende}, \binits{M.}},
+\bauthor{\bsnm{Miranda}, \binits{R.J.S.}},
+\bauthor{\bsnm{Freistadt}, \binits{J.}}:
+\batitle{The effect of the regulation and regulatory enforcement on the
+  implementation of the social tariff in the water sector: empirical evidence
+  from {Brazil}}.
+\bjtitle{Water Policy}
+\bvolume{27}(\bissue{11}),
+\bfpage{1153}--\blpage{1174}
+(\byear{2025})
+\doiurl{10.2166/wp.2025.193} .
+\bcomment{SGR: 105023584539; Author affiliations: D.P.D.L., Amorim, Daniel
+  Penido De Lima (Centro Federal de Educacao Tecnologica de Minas Gerais,
+  Brazil); M., Resende, Marcelo (Institute of Economics, Brazil); R.J.S.,
+  Miranda, R{\^ o}mulo Jos{\' e} Soares (Economic Regulation Department,
+  Brazil); J., Freistadt, Jay (Herkenhoff e Prates Consultores, Brazil)}
+\end{barticle}
+\endbibitem
+
+%%% 17
+\bibitem[\protect\citeauthoryear{de~Menezes~Fraga and Alves}{2025}]{Fraga2025}
+\begin{barticle}
+\bauthor{\bsnm{Menezes~Fraga}, \binits{C.I.}},
+\bauthor{\bsnm{Alves}, \binits{C.D.M.A.}}:
+\batitle{Subsidies and affordability: a social approach to water supply
+  tariffs}.
+\bjtitle{Journal of Water Sanitation and Hygiene for Development}
+\bvolume{15}(\bissue{1}),
+\bfpage{75}--\blpage{83}
+(\byear{2025})
+\doiurl{10.2166/washdev.2024.253} .
+\bcomment{SGR: 85217493910; Cited by: 2; Author affiliations: C.I., de Menezes
+  Fraga, Camila Isabel (Instituto Federal de Educa{\c c}{\~ a}o, Ci{\^ e}ncia e
+  Tecnologia de Rond{\^ o}nia -- IFRO, Brazil); C.D.M.A., Alves, Concei{\c
+  c}{\~ a}o De Maria Albuquerque (Universidade de Bras{\' i}lia, Brazil)}
+\end{barticle}
+\endbibitem
+
+%%% 18
+\bibitem[\protect\citeauthoryear{Moreira et~al.}{2025}]{Moreira2025}
+\begin{botherref}
+\oauthor{\bsnm{Moreira}, \binits{F.D.}},
+\oauthor{\bsnm{Heller}, \binits{L.}},
+\oauthor{\bsnm{Rezende}, \binits{S.C.}}:
+Navigating rights and responsibilities: Water and sanitation access for
+  informal vendors in {Brazil}.
+Utilities Policy
+\textbf{97}
+(2025)
+\doiurl{10.1016/j.jup.2025.102051} .
+PII: S0957178725001663; SGR: 105015476248; Cited by: 1; Author affiliations:
+  F.D., Moreira, Fernanda Deister (Department of Environmental Engineering,
+  Brazil); L., Heller, L{\' e}o (Fundacao Oswaldo Cruz, Brazil); S.C., Rezende,
+  Sonaly Cristina (Department of Sanitary and Environmental Engineering,
+  Brazil)
+\end{botherref}
+\endbibitem
+
+%%% 19
+\bibitem[\protect\citeauthoryear{Corr{\^ e}a et~al.}{2026}]{Correa2026}
+\begin{botherref}
+\oauthor{\bsnm{Corr{\^ e}a}, \binits{L.P.}},
+\oauthor{\bsnm{Medeiros}, \binits{P.C.}},
+\oauthor{\bsnm{Hadad}, \binits{R.M.}},
+\oauthor{\bsnm{Rangel~Rigotti}, \binits{J.I.}},
+\oauthor{\bsnm{Figueiredo~Gomes}, \binits{U.A.}}:
+Water, sanitation, and hygiene ({WASH}): a study of {Brazilian} rural public
+  elementary schools.
+Cadernos de Saude Publica
+\textbf{42}
+(2026)
+\doiurl{10.1590/0102-311XPT128025} .
+SGR: 105039130969; Author affiliations: L.P., Corr{\^ e}a, L{\' i}via Pita
+  (Universidade Federal de Minas Gerais, Brazil); P.C., Medeiros, Patr{\' i}cia
+  Concei{\c c}{\~ a}o (Universidade Federal de Minas Gerais, Brazil); R.M.,
+  Hadad, Renato Moreira (Department of Production Engineering, Brazil); J.I.,
+  Rangel Rigotti, Jos{\' e} Irineu (Universidade Federal de Minas Gerais,
+  Brazil); U.A., Figueiredo Gomes, Uende Aparecida (Universidade Federal de
+  Minas Gerais, Brazil)
+\end{botherref}
+\endbibitem
+
+%%% 20
+\bibitem[\protect\citeauthoryear{Xavier~de Melo~Lopes et~al.}{2024}]{Lopes2024}
+\begin{barticle}
+\bauthor{\bsnm{Melo~Lopes}, \binits{T.M.}},
+\bauthor{\bsnm{Silva}, \binits{S.M.O.M.O.}},
+\bauthor{\bsnm{Sousa~Sampaio}, \binits{L.}},
+\bauthor{\bsnm{Barbosa~Soares}, \binits{R.}}:
+\batitle{Water and socioeconomic inequalities: spatial analysis of water
+  consumption in {Brazil}}.
+\bjtitle{Urban Water Journal}
+\bvolume{21}(\bissue{9}),
+\bfpage{1056}--\blpage{1070}
+(\byear{2024})
+\doiurl{10.1080/1573062X.2024.2397791} .
+\bcomment{SGR: 85203499239; Cited by: 3; Author affiliations: T.M., Xavier de
+  Melo Lopes, Tereza Margarida (Department of Hydraulic and Environmental
+  Engineering, Brazil); S.M.O.M.O., da Silva, Sam{\' i}ria Maria Oliveira Maria
+  Oliveira (Department of Hydraulic and Environmental Engineering, Brazil); L.,
+  de Sousa Sampaio, Leonardo (Department of Mechanical Engineering, Brazil);
+  R., Barbosa Soares, Rog{\' e}rio (Department of Hydraulic and Environmental
+  Engineering, Brazil)}
+\end{barticle}
+\endbibitem
+
+%%% 21
+\bibitem[\protect\citeauthoryear{Fagundes et~al.}{2024}]{Fagundes2024}
+\begin{botherref}
+\oauthor{\bsnm{Fagundes}, \binits{T.S.}},
+\oauthor{\bsnm{Cunha~Marques}, \binits{R.}},
+\oauthor{\bsnm{Malheiros}, \binits{T.F.}}:
+Are {Brazilian} water auction prices affordable for vulnerable families?
+Utilities Policy
+\textbf{88}
+(2024)
+\doiurl{10.1016/j.jup.2024.101749} .
+PII: S0957178724000420; SGR: 85189082762; Cited by: 5; Author affiliations:
+  T.S., Fagundes, Thalita Salgado (CERIS -- Civil Engineering Research and
+  Innovation for Sustainability, Portugal); R., Cunha Marques, Rui (Department
+  of Industrial Engineering and Management, Portugal); T.F., Malheiros, Tadeu
+  Fabr{\' i}cio (Department of Hydraulics and Sanitation, Brazil)
+\end{botherref}
+\endbibitem
+
+%%% 22
+\bibitem[\protect\citeauthoryear{Mendes and Alves}{2026}]{Mendes2026}
+\begin{botherref}
+\oauthor{\bsnm{Mendes}, \binits{A.T.}},
+\oauthor{\bsnm{Alves}, \binits{C.D.M.A.}}:
+Asymmetries in water and sanitation services and how they are shaping urban
+  drainage and stormwater management in {Brazil}.
+Utilities Policy
+\textbf{98}
+(2026)
+\doiurl{10.1016/j.jup.2025.102114} .
+PII: S0957178725002292; SGR: 105022876386; Author affiliations: A.T., Mendes,
+  Alesi Teixeira (Fundacao Getulio Vargas, Brazil); C.D.M.A., Alves, Concei{\c
+  c}{\~ a}o De Maria Albuquerque (Universidade de Bras{\' i}lia, Brazil)
+\end{botherref}
+\endbibitem
+
+%%% 23
+\bibitem[\protect\citeauthoryear{de~Lima~e Silva et~al.}{2026}]{LimaeSilva2026}
+\begin{botherref}
+\oauthor{\bsnm{Silva}, \binits{A.}},
+\oauthor{\bsnm{Silva}, \binits{Y.C.}},
+\oauthor{\bsnm{Moraes}, \binits{M.M.G.A.}}:
+Optimal water tariffs and trade-offs: a multi-objective analysis of
+  municipalities in {Pernambuco}.
+Revista Brasileira de Recursos Hidricos
+\textbf{31}
+(2026)
+\doiurl{10.1590/2318-0331.312620250186} .
+SGR: 105045389486; Author affiliations: A., de Lima e Silva, Andrei
+  (Universidade Federal de Roraima, Brazil); Y.C., de Lima e Silva, Yuri Cesar
+  (Universidade Federal de Roraima, Brazil); M.M.G.A., de Moraes, Marcia Maria
+  Guedes Alcoforado (Department of Economics, Brazil)
+\end{botherref}
+\endbibitem
+
+%%% 24
+\bibitem[\protect\citeauthoryear{Fagundes et~al.}{2025}]{Fagundes2025a}
+\begin{botherref}
+\oauthor{\bsnm{Fagundes}, \binits{T.S.}},
+\oauthor{\bsnm{Marques}, \binits{R.C.}},
+\oauthor{\bsnm{Ferreira}, \binits{D.F.D.C.}},
+\oauthor{\bsnm{Malheiros}, \binits{T.F.}}:
+Exploring water affordability through subsidy policies.
+Water Research
+\textbf{286}
+(2025)
+\doiurl{10.1016/j.watres.2025.124251} .
+PII: S0043135425011571; SGR: 105011153730; Cited by: 5; Author affiliations:
+  T.S., Fagundes, Thalita Salgado (CERIS -- Civil Engineering Research and
+  Innovation for Sustainability, Portugal); R.C., Marques, Rui Cunha (Research
+  Centre in Asset Management and Systems Engineering (RCM2+), Portugal);
+  D.F.D.C., Ferreira, Diogo Filipe Da Cunha (Instituto Superior T{\' e}cnico,
+  Portugal); T.F., Malheiros, Tadeu Fabr{\' i}cio (Department of Hydraulics and
+  Sanitation, Brazil)
+\end{botherref}
+\endbibitem
+
+%%% 25
+\bibitem[\protect\citeauthoryear{Mochol{\' i}-Arce
+  et~al.}{2024}]{MocholiArce2024}
+\begin{botherref}
+\oauthor{\bsnm{Mochol{\' i}-Arce}, \binits{M.}},
+\oauthor{\bsnm{Maziotis}, \binits{A.}},
+\oauthor{\bsnm{Sala-Garrido}, \binits{R.}},
+\oauthor{\bsnm{Molinos-Senante}, \binits{M.}}:
+Estimating operational costs for enhanced continuity in water supply and
+  sanitation services: An inverse data envelopment analysis approach in
+  {Chilean} utilities.
+Journal of Hydrology: Regional Studies
+\textbf{56}
+(2024)
+\doiurl{10.1016/j.ejrh.2024.102008} .
+PII: S2214581824003574; SGR: 85206264471; Cited by: 2; Author affiliations: M.,
+  Mochol{\' i}-Arce, Manuel (Departamento de Matem{\' a}ticas para la Econom{\'
+  i}a y la Empresa, Spain); A., Maziotis, Alexandros (Department of Business,
+  Greece); R., Sala-Garrido, Ramon (Universitat de Val{\` e}ncia, Spain); M.,
+  Molinos-Senante, Mar{\' i}a (Universidad de Valladolid, Spain)
+\end{botherref}
+\endbibitem
+
+%%% 26
+\bibitem[\protect\citeauthoryear{Wanguba et~al.}{2024}]{Wanguba2024}
+\begin{botherref}
+\oauthor{\bsnm{Wanguba}, \binits{B.}},
+\oauthor{\bsnm{Siriba}, \binits{D.N.}},
+\oauthor{\bsnm{Okumu}, \binits{B.O.}}:
+Gis-based multi-criteria decision analysis model for utility water demand: The
+  case of {Lodwar} {Municipality}, {Turkana} {County}, {Kenya}.
+Heliyon
+\textbf{10}(17)
+(2024)
+\doiurl{10.1016/j.heliyon.2024.e36518} .
+PII: S2405844024125492; SGR: 85202563611; Cited by: 6; Author affiliations: B.,
+  Wanguba, Bonface (Department of Earth and Climate Sciences, Kenya); D.N.,
+  Siriba, David Nyangau (Geospatial and Space Technology, Kenya); B.O., Okumu,
+  Benson O. (Geospatial and Space Technology, Kenya)
+\end{botherref}
+\endbibitem
+
+%%% 27
+\bibitem[\protect\citeauthoryear{Nongbri et~al.}{2025}]{Nongbri2025}
+\begin{botherref}
+\oauthor{\bsnm{Nongbri}, \binits{R.W.}},
+\oauthor{\bsnm{Sarkar}, \binits{A.}},
+\oauthor{\bsnm{Mandal}, \binits{S.K.}}:
+Impact of temperature shocks on household water poverty in {India}.
+Scientific Reports
+\textbf{15}(1)
+(2025)
+\doiurl{10.1038/s41598-025-01732-6} .
+SGR: 105004894743; Cited by: 3; Author affiliations: R.W., Nongbri, Rida Wanbha
+  (Department of Humanities and Social Sciences, India); A., Sarkar, Aryama
+  (Department of Humanities and Social Sciences, India); S.K., Mandal, Sabuj
+  Kumar (Department of Humanities and Social Sciences, India)
+\end{botherref}
+\endbibitem
+
+%%% 28
+\bibitem[\protect\citeauthoryear{Belhadj et~al.}{2026}]{Belhadj2026}
+\begin{barticle}
+\bauthor{\bsnm{Belhadj}, \binits{B.}},
+\bauthor{\bsnm{Neffati}, \binits{M.}},
+\bauthor{\bsnm{Raggad}, \binits{B.}}:
+\batitle{Beyond {Transplanted} {Thresholds}: Country-{Calibrated} {Fuzzy}
+  {Water} {Poverty} {Indices} for {SDG}-6 in {MENA}}.
+\bjtitle{Sustainable Development}
+(\byear{2026})
+\doiurl{10.1002/sd.70936} .
+\bcomment{SGR: 105033284225; Cited by: 1; Author affiliations: B., Belhadj,
+  Besma (LaReQuad, Tunisia); M., Neffati, Mohamed (Laboratory of Pastoral
+  Ecosystems and Valorization of Spontaneous Plants, Tunisia); B., Raggad,
+  Bechir (Majmaah University, Saudi Arabia)}
+\end{barticle}
+\endbibitem
+
+\end{thebibliography}

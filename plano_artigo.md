@@ -1490,3 +1490,39 @@ Highlights + prosa mais enxuta, alvo ~6.000 palavras) antes de escrever.
   revisar se a estratégia de triagem ficou boa ou se algo do suplementar
   deveria voltar pro corpo dado que sobrou margem de ~1.100-3.100 palavras
   até o teto.
+
+## 25. Três ajustes de acabamento no elsarticle (mesmo dia)
+
+- **Figura composta com os 4 mapas por UF**: novo
+  `scripts/23_combina_mapas_painel.py`, combina `10_mapa_icr_sm_uf.png`
+  (ICR-SM histórico), `11_mapa_2033_agua_uf.png`, `12_mapa_2033_esgoto_uf.png`
+  e `13_mapa_gap_agua_esgoto_uf.png` num painel 2x2 com rótulos (a)-(d),
+  salvo em `figuras/21_paineis_mapas_uf.png` (300dpi). Isso trouxe de volta
+  pro corpo do artigo (como figura única, sem custar 4 figuras separadas)
+  conteúdo que tinha ido pro suplementar na rodada anterior (mapas água
+  2033, esgoto 2033, gap). Substituiu a figura antiga de mapa único
+  (`fig_mapa_icr`) no `elsarticle/manuscript.tex`, com legenda explicando
+  cada painel e texto do corpo citando "(Figure 1a)", "(Figure 1b)" etc.
+  conforme o assunto tratado em cada trecho do texto corrido.
+- **Subsections removidas dos Results**: as 4 `\subsection` (3.1-3.4)
+  viraram texto corrido com frases de transição ("Turning to...", "Beyond
+  this average result...") em vez de headers, deixando a seção mais fluida,
+  como pedido.
+- **Table 4 (cenários 2033) corrigida**: estava estourando a margem por usar
+  colunas `l l l` simples com texto longo na coluna "Interpretation". Trocado
+  para `p{}` com `\raggedright` (precisa `\usepackage{array}`, adicionado ao
+  preâmbulo). Também corrigido, por tabela, um overflow menor na Table 3
+  (coeficientes) com `\small`.
+- **Bug de posicionamento de figura resolvido durante a correção**: a figura
+  composta nova, muito alta (11x11.5in), tinha sido empurrada pelo LaTeX
+  pro fim do documento (`[h]` não conseguia encaixar). Corrigido reduzindo
+  a largura para `0.62\textwidth` e trocando o especificador de posição
+  para `[htbp]` nas duas figuras do artigo.
+- Contagem de palavras final: **~5.009 palavras de corpo** (subiu de ~4.880
+  por causa do texto novo referenciando os painéis b/c/d), ainda bem abaixo
+  do teto de 6.000-8.000.
+- Compilação verificada limpa (`pdflatex`×2 + `bibtex`, 20 páginas, sem
+  erros nem overfull real no corpo — só os já esperados na `.bbl` por causa
+  de URLs longas), páginas 6-8 (Results sem subsections + figura composta)
+  e 11-12 (Table 4 + Figure 2 lado a lado, dentro da margem) inspecionadas
+  visualmente via `pdftoppm`.

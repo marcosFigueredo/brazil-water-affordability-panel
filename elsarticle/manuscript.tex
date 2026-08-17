@@ -4,6 +4,7 @@
 \usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage{booktabs}
+\usepackage{array}
 
 %% TBD: confirm exact journal name for this special issue before submission
 %% (special issue is hosted on ScienceDirect; "Utilities Policy" is our best
@@ -83,8 +84,6 @@ A second, machine learning route forecasts one year ahead rather than estimating
 
 \section{Results}\label{sec2}
 
-\subsection{Affordability over time, space and municipal size}\label{subsec_resultados1}
-
 The national median ICR-SM fell sharply in the first panel years and settled into a narrow band from around 2010 onward, above the upper bound of the international affordability range of 3 to 5 percent, a plateau coinciding with sustained real appreciation of the minimum wage rather than obviously reflecting deliberate tariff design. The regional pattern runs against intuition, the Northeast, historically the weakest on coverage, has the lowest median affordability burden, while the South, strongest on coverage, has the highest (Table~\ref{tab_icr_regiao}), consistent with heavier access subsidies in the Northeast and closer to full cost recovery pricing in the South.
 
 \begin{table}[h]
@@ -103,12 +102,12 @@ South         & 8.0\% & 8.2\% & 20,643 \\
 \end{tabular}
 \end{table}
 
-State level mapping (Figure~\ref{fig_mapa_icr}) shows the North is internally divided, Amazonas and Maranhao are the lightest states in the country, while Rondonia and Amapa, also in the North, are among the darkest, so the regional average combines genuinely distinct tariff regimes. The Federal District is the single darkest unit by a wide margin, better read as a singular, wealthy, fully urbanized, single utility case than as representative of the Central West.
+State level mapping (Figure~\ref{fig_paineis}a) shows the North is internally divided, Amazonas and Maranhao are the lightest states in the country, while Rondonia and Amapa, also in the North, are among the darkest, so the regional average combines genuinely distinct tariff regimes. The Federal District is the single darkest unit by a wide margin, better read as a singular, wealthy, fully urbanized, single utility case than as representative of the Central West.
 
-\begin{figure}[h]
+\begin{figure}[htbp]
 \centering
-\includegraphics[width=0.7\textwidth]{../figuras/10_mapa_icr_sm_uf.png}
-\caption{Average ICR-SM by state, 1995 to 2022. Darker shading indicates a heavier affordability burden.}\label{fig_mapa_icr}
+\includegraphics[width=0.62\textwidth]{../figuras/21_paineis_mapas_uf.png}
+\caption{State level geography of affordability and the 2033 legal targets. (a) Average ICR-SM by state, 1995 to 2022, darker shading indicates a heavier affordability burden. (b) Share of municipalities per state projected not to meet the 99 percent water coverage target by 2033. (c) Share projected not to meet the 90 percent sanitation target by 2033. (d) Difference, in percentage points, between the sanitation and water shortfall shares; positive (red) values indicate sanitation lagging water, negative (green) values indicate the reverse.}\label{fig_paineis}
 \end{figure}
 
 A second cut, by municipal population size, gives the clearest tariff-burden gradient in the panel (Table~\ref{tab_icr_porte}). The burden rises close to monotonically with size, from a median of 5.7 percent under 5,000 residents to 12.2 percent above 500,000, more than double, even though average water coverage does not follow the same gradient. Because larger municipalities concentrate a larger share of the country's minimum wage workforce, the households most exposed to a heavy burden are disproportionately urban, cutting against a reading of Brazilian water affordability as chiefly a small town problem. Whether this reflects full cost recovery pricing in larger, more autonomous utilities or a more diluted subsidy per connection in denser systems is documented here rather than resolved.
@@ -130,15 +129,14 @@ Above 500,000          & 12.2\% & 13.4\% & 904 \\
 \end{tabular}
 \end{table}
 
-\subsection{Planning variables show no robust within municipality association}\label{subsec_resultados2}
-
-In the two way fixed effects model, none of the four lagged planning variables reaches conventional statistical significance (all $p>0.19$). The between $R^2$ reaches 0.85 while the within $R^2$ is close to zero, indicating that year to year movement in these variables carries little of the variation in the tariff burden, which is instead associated with whatever is fixed within a municipality. This is a statement about where the variance sits given the variables the sector reports about itself, not a claim that planning is causally irrelevant under every possible measurement or longer lag structure. The pattern recurs across three alternative lag windows (between $R^2$ 0.85 to 0.87 throughout); only a contemporaneous specification, most exposed to reverse causality, shows significant coefficients, with signs difficult to reconcile with a causal reading from planning to outcome. Full results for all four specifications are in the supplementary material \citep{Figueredo2026Repo}.
+Turning to the central test of this paper, in the two way fixed effects model none of the four lagged planning variables reaches conventional statistical significance (all $p>0.19$). The between $R^2$ reaches 0.85 while the within $R^2$ is close to zero, indicating that year to year movement in these variables carries little of the variation in the tariff burden, which is instead associated with whatever is fixed within a municipality. This is a statement about where the variance sits given the variables the sector reports about itself, not a claim that planning is causally irrelevant under every possible measurement or longer lag structure. The pattern recurs across three alternative lag windows (between $R^2$ 0.85 to 0.87 throughout); only a contemporaneous specification, most exposed to reverse causality, shows significant coefficients, with signs difficult to reconcile with a causal reading from planning to outcome. Full results for all four specifications are in the supplementary material \citep{Figueredo2026Repo}.
 
 This null result is not temporally uniform (Table~\ref{tab_periodo_2012_2022}). The onerous financing share turns significant when the sample is restricted to 2012 onward, with a sign opposite to the original hypothesis, more debt associated with a lighter burden, and investment instability turns significant only under the state income denominator. A plausible reading is that the 2010s included subsidized financing programs for sanitation, so an onerous classification may have captured subsidized credit rather than costly debt; this is reported as an open question about the recent period rather than a resolved exception to the full sample result.
 
 \begin{table}[h]
 \caption{Planning variable coefficients with clustered standard errors, dependent variable ICR-SM unless noted}\label{tab_periodo_2012_2022}
 \centering
+\small
 \begin{tabular}{@{}lccc@{}}
 \toprule
  & Full sample & 2012--2021 & 2012--2020 \\
@@ -162,31 +160,27 @@ $N$              & 41,720 & 29,150 & 25,846 \\
 
 Two machine learning models, gradient boosting and random forest, were trained to forecast the ICR-SM itself one year ahead, testing the panel finding directly rather than by analogy. Both are outperformed by the naive rule of repeating each municipality's last observed value (MAE 0.54 and 0.56 percentage points respectively, against 0.48 for persistence and 1.97 for a per municipality linear extrapolation), a second, entirely independent empirical route reaching the same substantive conclusion as the panel estimates. Permutation importance shows one partial exception, log GDP per capita, lagged investment per capita, the lagged loss index and investment instability all carry a small positive, non noise contribution, modest but consistent with a weak genuine signal a linear fixed effects specification with a strict one year lag is not positioned to detect. The equivalent forecast for water coverage shows the same qualitative pattern (persistence MAE 2.16 against 3.26 for gradient boosting). Full ablation tables and predicted against observed figures for both outcomes are in the supplementary material \citep{Figueredo2026Repo}.
 
-\subsection{Where a trade off and growth pressure appear}\label{subsec_resultados3}
+Beyond this average result, two further tests locate where a trade off and growth pressure actually appear. Interacting coverage with region shows a coverage affordability trade off concentrated in the North and Central West, where coverage gains arrive with a worsening burden, and absent in the Northeast, the region a simple catching up story would predict it most. Population growth reduces water coverage with an economically and statistically meaningful coefficient, while its effect on affordability is not distinguishable from zero; growth in services value added is associated with better, not worse, affordability, plausibly because a larger paying customer base dilutes fixed costs faster than it raises expansion demand. Growth pressure therefore strains access, not price. A model free test, the correlation between each municipality's coverage trend slope and its affordability trend slope, is close to zero, no evidence of a systematic long run trade off between expanding coverage and containing tariffs.
 
-Interacting coverage with region shows a coverage affordability trade off concentrated in the North and Central West, where coverage gains arrive with a worsening burden, and absent in the Northeast, the region a simple catching up story would predict it most. Population growth reduces water coverage with an economically and statistically meaningful coefficient, while its effect on affordability is not distinguishable from zero; growth in services value added is associated with better, not worse, affordability, plausibly because a larger paying customer base dilutes fixed costs faster than it raises expansion demand. Growth pressure therefore strains access, not price. A model free test, the correlation between each municipality's coverage trend slope and its affordability trend slope, is close to zero, no evidence of a systematic long run trade off between expanding coverage and containing tariffs.
-
-\subsection{Trajectories toward 2033}\label{subsec_resultados5}
-
-A linear extrapolation of historical coverage trends classifies most municipalities as on track for the 99 percent water target by 2033, with a wide regional gap, the South's share projected to miss the target is a fraction of the North's. Sanitation is more precarious, a usable series exists for only 2,971 of 5,549 municipalities, and among municipalities on track for water, the majority are projected to miss the 90 percent sanitation target, coverage of one service carries little information about the other. Validating the coverage projection against a gradient boosting model trained on the same chronological holdout, the machine learning model is outperformed by simple persistence (MAE 2.16 against 3.26 percentage points); the two methods agree on only about a third of municipalities projected to 2033, evidence of sensitivity to forecasting assumptions rather than a defect of either method. Full regional detail and the additional choropleth maps are in the supplementary material \citep{Figueredo2026Repo}.
+Turning to the horizon set by the 2033 legal deadline, a linear extrapolation of historical coverage trends classifies most municipalities as on track for the 99 percent water target, with a wide regional gap, the South's share projected to miss the target is a fraction of the North's (Figure~\ref{fig_paineis}b). Sanitation is more precarious (Figure~\ref{fig_paineis}c), a usable series exists for only 2,971 of 5,549 municipalities, and among municipalities on track for water, the majority are projected to miss the 90 percent sanitation target, coverage of one service carries little information about the other. Figure~\ref{fig_paineis}d maps this asymmetry directly; most states with reliable sanitation data show sanitation lagging water by a wide margin, and where the reverse appears it is concentrated in North states with fewer than ten municipalities of usable sanitation data, a sparse reporting artifact rather than a genuine reversal, except Maranhao, whose larger sample does show a real water lag. Validating the coverage projection against a gradient boosting model trained on the same chronological holdout, the machine learning model is outperformed by simple persistence (MAE 2.16 against 3.26 percentage points); the two methods agree on only about a third of municipalities projected to 2033, evidence of sensitivity to forecasting assumptions rather than a defect of either method. Full regional detail is in the supplementary material \citep{Figueredo2026Repo}.
 
 The same two machine learning models and a linear extrapolation are applied directly to the ICR-SM (Table~\ref{tab_icr_2033}, Figure~\ref{fig_icr_2033}), each starting from every municipality's last observed value, with population growth set to the official IBGE state level projection for 2022 to 2033. The three are reported as separate conditional scenarios rather than averaged into a single estimate, precisely because they disagree in direction, averaging a decline against two increases would manufacture a false consensus, and none is a validated eleven year forecast, the one year ahead validation says nothing about accuracy once a model's own predictions are recursively fed back into itself. The linear scenario continues the gradual decline visible since the mid 2000s, inheriting two decades of real minimum wage appreciation outpacing tariff growth. Both recursive models instead reverse the recent trajectory, by different amounts, gradient boosting fits each new tree to the residuals of the last and extrapolates further, while random forest averages many bootstrapped trees, a form of averaging that pulls recursive forecasts toward a stable point, visible as the random forest trajectory flattening while gradient boosting keeps climbing.
 
 \begin{table}[h]
 \caption{National ICR-SM in 2033 under three conditional scenarios}\label{tab_icr_2033}
 \centering
-\begin{tabular}{@{}lll@{}}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.32\linewidth}c>{\raggedright\arraybackslash}p{0.4\linewidth}@{}}
 \toprule
-Method & National ICR-SM in 2033 & Interpretation \\
+Method & ICR-SM in 2033 & Interpretation \\
 \midrule
-Linear trend                & 4.5\% & Continuation of historical trajectory \\
-Recursive random forest     & 6.0\% & Moderate reversal scenario \\
+Linear trend & 4.5\% & Continuation of historical trajectory \\
+Recursive random forest & 6.0\% & Moderate reversal scenario \\
 Recursive gradient boosting & 7.0\% & Sharper reversal scenario \\
 \bottomrule
 \end{tabular}
 \end{table}
 
-\begin{figure}[h]
+\begin{figure}[htbp]
 \centering
 \includegraphics[width=0.8\textwidth]{../figuras/19_projecao_icr_2033.png}
 \caption{National average ICR-SM, observed 1995 to 2022 and three conditional scenarios to 2033. None of the three is validated as an eleven year forecast, they are sensitivity scenarios under different assumptions. The dotted line marks the 5 percent upper bound of the international affordability range.}\label{fig_icr_2033}

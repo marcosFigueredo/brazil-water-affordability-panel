@@ -36,6 +36,13 @@ sn-article-template/*.fls
 sn-article-template/*.xdv
 sn-article-template/*-eps-converted-to.pdf
 sn-article-template/compile_title.log
+elsarticle/*.aux
+elsarticle/*.log
+elsarticle/*.out
+elsarticle/*.blg
+elsarticle/*.spl
+elsarticle/*.fdb_latexmk
+elsarticle/*.fls
 
 # Python
 __pycache__/

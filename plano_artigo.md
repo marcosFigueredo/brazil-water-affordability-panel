@@ -1437,3 +1437,56 @@ trabalho de amanhã é (1) aplicar o template Elsevier correto, (2) reescrever
 o texto do corpo seguindo a triagem acima, (3) adicionar no artigo uma frase
 tipo "extended results, robustness tables and additional figures are
 available in the online supplementary material" apontando pro repositório.
+
+## 24. Migração para o template Elsevier (elsarticle) — feita no mesmo dia
+
+Usuário trouxe o template real
+(`elsarticle/elsarticle-template-num.tex`, estilo de citação numerado) e
+pediu pra já migrar seguindo a triagem da seção 23. Confirmada estratégia
+com o usuário (deslocar robustez/ablation/ML detalhado pro suplementar +
+Highlights + prosa mais enxuta, alvo ~6.000 palavras) antes de escrever.
+
+- **Novo arquivo**: `elsarticle/manuscript.tex`. Reescrito do zero
+  condensando o conteúdo do `sn-article-template/sn-article.tex`, não
+  copiado literalmente — cada seção foi resumida seguindo o orçamento de
+  palavras da seção 23.
+- **Resultado real de contagem de palavras**: **~4.880 palavras de corpo**
+  (medido via `pdftotext` sobre o PDF compilado), abaixo do teto de
+  6.000-8.000 pedido pelo Guide for Authors, com folga real para adicionar
+  conteúdo de volta se necessário (não precisou cortar mais).
+- **O que ficou no corpo**: Introdução condensada (~550 palavras, Related
+  Work fundido nela), Métodos com só as 2 equações centrais (ICR-SM, painel
+  com efeitos fixos) e descrição textual do ML sem as 5+ equações
+  detalhadas, Results com Table 1 (região), Table 2 (porte), Table 3
+  (coeficientes 2001-2021 + 2012-2021 + 2012-2020 com erros-padrão), Table 4
+  (3 cenários 2033), 2 figuras (mapa ICR-SM por UF, curva de projeção
+  2033), MAE/RMSE dos modelos de ML reportados em 1 frase no texto (não
+  como tabela separada). Discussion e Conclusion condensadas mas mantendo
+  as 4 perguntas de pesquisa respondidas.
+- **O que foi para o material suplementar** (citado via `\citep{Figueredo2026Repo}`
+  apontando pro repositório GitHub/Zenodo, 3 menções no texto): tabela de
+  robustez completa (4 especificações), as 2 tabelas de permutation
+  importance, os 2 gráficos previsto-vs-observado, a figura de séries
+  temporais dos inputs do ML, a tabela de projeção 2033 água/esgoto por
+  região, o mapa do gap água×esgoto, as equações detalhadas dos modelos de
+  ML e do forecast recursivo.
+- **Elementos novos do Elsevier que o Springer não tinha**: seção
+  "Highlights" (5 bullets, <85 caracteres cada, obrigatório no template),
+  `\journal{}` (marcado como pendente de confirmação — melhor palpite
+  "Utilities Policy", não confirmado ainda).
+- **Pendências explícitas deixadas visíveis no arquivo** (não inventadas):
+  `AUTHOR NAME PENDING`, `EMAIL PENDING`, `AFFILIATION PENDING` no
+  frontmatter — usuário ainda não passou essa informação real.
+- Bibliografia reaproveitada via caminho relativo
+  (`../sn-article-template/sn-bibliography.bib`), compilada com
+  `elsarticle-num.bst` (estilo numerado Elsevier). Figuras reaproveitadas
+  via caminho relativo (`../figuras/`).
+- Compilação verificada limpa (`pdflatex`×3 + `bibtex`, 20 páginas no
+  formato Elsevier preprint, sem erros nem referências indefinidas),
+  páginas 1 (Highlights), 2 (título/resumo), 7 (tabela) e a última
+  (referências) inspecionadas visualmente via `pdftoppm`.
+- **Pendências para a próxima sessão**: (1) nome/afiliação/e-mail reais dos
+  autores, (2) confirmar o nome exato da revista para o `\journal{}`, (3)
+  revisar se a estratégia de triagem ficou boa ou se algo do suplementar
+  deveria voltar pro corpo dado que sobrou margem de ~1.100-3.100 palavras
+  até o teto.

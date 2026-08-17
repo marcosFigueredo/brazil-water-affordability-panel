@@ -1,0 +1,275 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{Fagundes2025b}
+T.~S. Fagundes, R.~C. Marques, T.~F. Malheiros,
+  \href{https://doi-org.ez86.periodicos.capes.gov.br/10.1007/s11269-024-04076-4}{A
+  {Comprehensive} {Framework} for {Water} {Affordability} {Analysis}}, Water
+  Resources Management 39~(6) (2025) 2527--2549.
+\newblock \href {https://doi.org/10.1007/s11269-024-04076-4}
+  {\path{doi:10.1007/s11269-024-04076-4}}.
+\newline\urlprefix\url{https://doi-org.ez86.periodicos.capes.gov.br/10.1007/s11269-024-04076-4}
+
+\bibitem{Skerker2024}
+J.~B. Skerker, A.~Verma, M.~R. Edwards, B.~A. Rachunok, S.~M. Fletcher,
+  \href{https://doi-org.ez86.periodicos.capes.gov.br/10.1088/1748-9326/ad5609}{Alternative
+  household water affordability metrics using water bill delinquency behavior},
+  Environmental Research Letters 19~(7) (jul 1 2024).
+\newblock \href {https://doi.org/10.1088/1748-9326/ad5609}
+  {\path{doi:10.1088/1748-9326/ad5609}}.
+\newline\urlprefix\url{https://doi-org.ez86.periodicos.capes.gov.br/10.1088/1748-9326/ad5609}
+
+\bibitem{Patterson2023}
+L.~A. Patterson, S.~A. Bryson, M.~W. Doyle,
+  \href{https://doi-org.ez86.periodicos.capes.gov.br/10.1371/journal.pwat.0000123}{Affordability
+  of household water services across the {United} {States}}, PLOS Water 2~(5
+  May) (may 10 2023).
+\newblock \href {https://doi.org/10.1371/journal.pwat.0000123}
+  {\path{doi:10.1371/journal.pwat.0000123}}.
+\newline\urlprefix\url{https://doi-org.ez86.periodicos.capes.gov.br/10.1371/journal.pwat.0000123}
+
+\bibitem{RomeroGomez2024}
+G.~Romero-Gomez, E.~Domene, X.~G. Garcia, H.~Yoon, D.~Saur{\' i},
+  \href{https://doi-org.ez86.periodicos.capes.gov.br/10.3390/w16111496}{Socio-{Spatial}
+  {Analysis} of {Water} {Affordability} at {Small} {Scales}: A {Needs}-{Based}
+  {Approach}}, Water (Switzerland) 16~(11) (jun 1 2024).
+\newblock \href {https://doi.org/10.3390/w16111496}
+  {\path{doi:10.3390/w16111496}}.
+\newline\urlprefix\url{https://doi-org.ez86.periodicos.capes.gov.br/10.3390/w16111496}
+
+\bibitem{Pierce2021}
+G.~Pierce, A.~R. El-Khattabi, K.~Gmoser-Daskalakis, N.~Chow,
+  \href{https://doi-org.ez86.periodicos.capes.gov.br/10.1002/wat2.1522}{Solutions
+  to the problem of drinking water service affordability: A review of the
+  evidence}, Wiley Interdisciplinary Reviews: Water 8~(4) (jul 1 2021).
+\newblock \href {https://doi.org/10.1002/wat2.1522}
+  {\path{doi:10.1002/wat2.1522}}.
+\newline\urlprefix\url{https://doi-org.ez86.periodicos.capes.gov.br/10.1002/wat2.1522}
+
+\bibitem{Teodoro2018}
+M.~P. Teodoro,
+  \href{https://doi-org.ez86.periodicos.capes.gov.br/10.5942/jawwa.2018.110.0002}{Measuring
+  household affordability for water and sewer utilities}, Journal - American
+  Water Works Association 110~(1) (2018) 13--24.
+\newblock \href {https://doi.org/10.5942/jawwa.2018.110.0002}
+  {\path{doi:10.5942/jawwa.2018.110.0002}}.
+\newline\urlprefix\url{https://doi-org.ez86.periodicos.capes.gov.br/10.5942/jawwa.2018.110.0002}
+
+\bibitem{Fagundes2023}
+T.~S. Fagundes, R.~C. Marques, T.~F. Malheiros,
+  \href{https://doi-org.ez86.periodicos.capes.gov.br/10.2166/aqua.2023.035}{Water
+  affordability analysis: a critical literature review}, Aqua Water
+  Infrastructure, Ecosystems and Society 72~(8) (2023) 1431--1445.
+\newblock \href {https://doi.org/10.2166/aqua.2023.035}
+  {\path{doi:10.2166/aqua.2023.035}}.
+\newline\urlprefix\url{https://doi-org.ez86.periodicos.capes.gov.br/10.2166/aqua.2023.035}
+
+\bibitem{Vanhille2018}
+J.~Vanhille, T.~Goedem{\' e}, T.~Penne, L.~van Thielen, B.~Storms,
+  \href{https://doi-org.ez86.periodicos.capes.gov.br/10.1016/j.jenvman.2018.03.106}{Measuring
+  water affordability in developed economies. {The} added value of a
+  needs-based approach}, Journal of Environmental Management 217 (2018)
+  611--620.
+\newblock \href {https://doi.org/10.1016/j.jenvman.2018.03.106}
+  {\path{doi:10.1016/j.jenvman.2018.03.106}}.
+\newline\urlprefix\url{https://doi-org.ez86.periodicos.capes.gov.br/10.1016/j.jenvman.2018.03.106}
+
+\bibitem{Wichman2025}
+C.~J. Wichman,
+  \href{https://doi-org.ez86.periodicos.capes.gov.br/10.1142/S2382624X25300026}{The
+  {Economics} of {Equity} and {Affordability} in {Residential} {Water}
+  {Pricing}}, Water Economics and Policy 11~(2) (jun 1 2025).
+\newblock \href {https://doi.org/10.1142/S2382624X25300026}
+  {\path{doi:10.1142/S2382624X25300026}}.
+\newline\urlprefix\url{https://doi-org.ez86.periodicos.capes.gov.br/10.1142/S2382624X25300026}
+
+\bibitem{Torio2025}
+P.~C. Torio, L.~M. Harris,
+  \href{https://doi-org.ez86.periodicos.capes.gov.br/10.1002/wwp2.12229}{Water
+  tariffs and social equity: Towards water service connections and pricing
+  instruments for the poor}, World Water Policy 11~(1) (2025) 38--60.
+\newblock \href {https://doi.org/10.1002/wwp2.12229}
+  {\path{doi:10.1002/wwp2.12229}}.
+\newline\urlprefix\url{https://doi-org.ez86.periodicos.capes.gov.br/10.1002/wwp2.12229}
+
+\bibitem{Andres2024}
+L.~A. Andr{\' e}s, J.~Garrido, J.~A. Gonzalez, R.~C. Marques,
+  \href{https://doi-org.ez86.periodicos.capes.gov.br/10.1016/j.jup.2024.101802}{Assessing
+  regulatory governance for the water and sanitation {Agencies} in {Brazil}},
+  Utilities Policy 90 (oct 1 2024).
+\newblock \href {https://doi.org/10.1016/j.jup.2024.101802}
+  {\path{doi:10.1016/j.jup.2024.101802}}.
+\newline\urlprefix\url{https://doi-org.ez86.periodicos.capes.gov.br/10.1016/j.jup.2024.101802}
+
+\bibitem{Barbosa2024}
+A.~Barbosa, F.~A. S.~D. Medeiros, P.~Sim{\~ o}es,
+  \href{https://doi-org.ez86.periodicos.capes.gov.br/10.3390/w16172483}{Governance
+  and {Efficiency} in {Brazilian} {Water} {Utilities}: An {Analysis} {Based} on
+  {Revenue} {Collection} {Efficiency}}, Water (Switzerland) 16~(17) (sep 1
+  2024).
+\newblock \href {https://doi.org/10.3390/w16172483}
+  {\path{doi:10.3390/w16172483}}.
+\newline\urlprefix\url{https://doi-org.ez86.periodicos.capes.gov.br/10.3390/w16172483}
+
+\bibitem{Fagundes2025c}
+T.~S. Fagundes, R.~Cunha~Marques,
+  \href{https://doi-org.ez86.periodicos.capes.gov.br/10.1080/02508060.2025.2497742}{Water
+  privatization in {Brazil}: is the private sector making the same mistakes as
+  in the past?}, Water International 50~(6) (2025) 583--603.
+\newblock \href {https://doi.org/10.1080/02508060.2025.2497742}
+  {\path{doi:10.1080/02508060.2025.2497742}}.
+\newline\urlprefix\url{https://doi-org.ez86.periodicos.capes.gov.br/10.1080/02508060.2025.2497742}
+
+\bibitem{Barra2026}
+B.~Barra, E.~Lobina, L.~Heller,
+  \href{https://doi-org.ez86.periodicos.capes.gov.br/10.1016/j.wasec.2026.100207}{When
+  means undermine ends: an extreme case of financialised water privatisation in
+  {Brazil}}, Water Security 28 (aug 1 2026).
+\newblock \href {https://doi.org/10.1016/j.wasec.2026.100207}
+  {\path{doi:10.1016/j.wasec.2026.100207}}.
+\newline\urlprefix\url{https://doi-org.ez86.periodicos.capes.gov.br/10.1016/j.wasec.2026.100207}
+
+\bibitem{Bermann2024}
+C.~Bermann, S.~M. G.~L. Hermsdorff,
+  \href{https://doi-org.ez86.periodicos.capes.gov.br/10.3389/frwa.2024.1211629}{Environmental
+  injustice in the privatization of {Brazilian} sanitation: an empirical
+  analysis}, Frontiers in Water 6 (jan 1 2024).
+\newblock \href {https://doi.org/10.3389/frwa.2024.1211629}
+  {\path{doi:10.3389/frwa.2024.1211629}}.
+\newline\urlprefix\url{https://doi-org.ez86.periodicos.capes.gov.br/10.3389/frwa.2024.1211629}
+
+\bibitem{Amorim2025}
+D.~P. D.~L. Amorim, M.~Resende, R.~J.~S. Miranda, J.~Freistadt,
+  \href{https://doi-org.ez86.periodicos.capes.gov.br/10.2166/wp.2025.193}{The
+  effect of the regulation and regulatory enforcement on the implementation of
+  the social tariff in the water sector: empirical evidence from {Brazil}},
+  Water Policy 27~(11) (2025) 1153--1174.
+\newblock \href {https://doi.org/10.2166/wp.2025.193}
+  {\path{doi:10.2166/wp.2025.193}}.
+\newline\urlprefix\url{https://doi-org.ez86.periodicos.capes.gov.br/10.2166/wp.2025.193}
+
+\bibitem{Fraga2025}
+C.~I. de~Menezes~Fraga, C.~D. M.~A. Alves,
+  \href{https://doi-org.ez86.periodicos.capes.gov.br/10.2166/washdev.2024.253}{Subsidies
+  and affordability: a social approach to water supply tariffs}, Journal of
+  Water Sanitation and Hygiene for Development 15~(1) (2025) 75--83.
+\newblock \href {https://doi.org/10.2166/washdev.2024.253}
+  {\path{doi:10.2166/washdev.2024.253}}.
+\newline\urlprefix\url{https://doi-org.ez86.periodicos.capes.gov.br/10.2166/washdev.2024.253}
+
+\bibitem{Moreira2025}
+F.~D. Moreira, L.~Heller, S.~C. Rezende,
+  \href{https://doi-org.ez86.periodicos.capes.gov.br/10.1016/j.jup.2025.102051}{Navigating
+  rights and responsibilities: Water and sanitation access for informal vendors
+  in {Brazil}}, Utilities Policy 97 (dec 1 2025).
+\newblock \href {https://doi.org/10.1016/j.jup.2025.102051}
+  {\path{doi:10.1016/j.jup.2025.102051}}.
+\newline\urlprefix\url{https://doi-org.ez86.periodicos.capes.gov.br/10.1016/j.jup.2025.102051}
+
+\bibitem{Correa2026}
+L.~P. Corr{\^ e}a, P.~C. Medeiros, R.~M. Hadad, J.~I. Rangel~Rigotti, U.~A.
+  Figueiredo~Gomes,
+  \href{https://doi-org.ez86.periodicos.capes.gov.br/10.1590/0102-311XPT128025}{Water,
+  sanitation, and hygiene ({WASH}): a study of {Brazilian} rural public
+  elementary schools}, Cadernos de Saude Publica 42 (jan 1 2026).
+\newblock \href {https://doi.org/10.1590/0102-311XPT128025}
+  {\path{doi:10.1590/0102-311XPT128025}}.
+\newline\urlprefix\url{https://doi-org.ez86.periodicos.capes.gov.br/10.1590/0102-311XPT128025}
+
+\bibitem{Lopes2024}
+T.~M. Xavier~de Melo~Lopes, S.~M. O. M.~O. da~Silva, L.~de~Sousa~Sampaio,
+  R.~Barbosa~Soares,
+  \href{https://doi-org.ez86.periodicos.capes.gov.br/10.1080/1573062X.2024.2397791}{Water
+  and socioeconomic inequalities: spatial analysis of water consumption in
+  {Brazil}}, Urban Water Journal 21~(9) (2024) 1056--1070.
+\newblock \href {https://doi.org/10.1080/1573062X.2024.2397791}
+  {\path{doi:10.1080/1573062X.2024.2397791}}.
+\newline\urlprefix\url{https://doi-org.ez86.periodicos.capes.gov.br/10.1080/1573062X.2024.2397791}
+
+\bibitem{Fagundes2024}
+T.~S. Fagundes, R.~Cunha~Marques, T.~F. Malheiros,
+  \href{https://doi-org.ez86.periodicos.capes.gov.br/10.1016/j.jup.2024.101749}{Are
+  {Brazilian} water auction prices affordable for vulnerable families?},
+  Utilities Policy 88 (jun 1 2024).
+\newblock \href {https://doi.org/10.1016/j.jup.2024.101749}
+  {\path{doi:10.1016/j.jup.2024.101749}}.
+\newline\urlprefix\url{https://doi-org.ez86.periodicos.capes.gov.br/10.1016/j.jup.2024.101749}
+
+\bibitem{Mendes2026}
+A.~T. Mendes, C.~D. M.~A. Alves,
+  \href{https://doi-org.ez86.periodicos.capes.gov.br/10.1016/j.jup.2025.102114}{Asymmetries
+  in water and sanitation services and how they are shaping urban drainage and
+  stormwater management in {Brazil}}, Utilities Policy 98 (feb 1 2026).
+\newblock \href {https://doi.org/10.1016/j.jup.2025.102114}
+  {\path{doi:10.1016/j.jup.2025.102114}}.
+\newline\urlprefix\url{https://doi-org.ez86.periodicos.capes.gov.br/10.1016/j.jup.2025.102114}
+
+\bibitem{LimaeSilva2026}
+A.~de~Lima~e Silva, Y.~C. de~Lima~e Silva, M.~M. G.~A. de~Moraes,
+  \href{https://doi-org.ez86.periodicos.capes.gov.br/10.1590/2318-0331.312620250186}{Optimal
+  water tariffs and trade-offs: a multi-objective analysis of municipalities in
+  {Pernambuco}}, Revista Brasileira de Recursos Hidricos 31 (jan 1 2026).
+\newblock \href {https://doi.org/10.1590/2318-0331.312620250186}
+  {\path{doi:10.1590/2318-0331.312620250186}}.
+\newline\urlprefix\url{https://doi-org.ez86.periodicos.capes.gov.br/10.1590/2318-0331.312620250186}
+
+\bibitem{Fagundes2025a}
+T.~S. Fagundes, R.~C. Marques, D.~F. D.~C. Ferreira, T.~F. Malheiros,
+  \href{https://doi-org.ez86.periodicos.capes.gov.br/10.1016/j.watres.2025.124251}{Exploring
+  water affordability through subsidy policies}, Water Research 286 (nov 1
+  2025).
+\newblock \href {https://doi.org/10.1016/j.watres.2025.124251}
+  {\path{doi:10.1016/j.watres.2025.124251}}.
+\newline\urlprefix\url{https://doi-org.ez86.periodicos.capes.gov.br/10.1016/j.watres.2025.124251}
+
+\bibitem{MocholiArce2024}
+M.~Mochol{\' i}-Arce, A.~Maziotis, R.~Sala-Garrido, M.~Molinos-Senante,
+  \href{https://doi-org.ez86.periodicos.capes.gov.br/10.1016/j.ejrh.2024.102008}{Estimating
+  operational costs for enhanced continuity in water supply and sanitation
+  services: An inverse data envelopment analysis approach in {Chilean}
+  utilities}, Journal of Hydrology: Regional Studies 56 (dec 1 2024).
+\newblock \href {https://doi.org/10.1016/j.ejrh.2024.102008}
+  {\path{doi:10.1016/j.ejrh.2024.102008}}.
+\newline\urlprefix\url{https://doi-org.ez86.periodicos.capes.gov.br/10.1016/j.ejrh.2024.102008}
+
+\bibitem{Nongbri2025}
+R.~W. Nongbri, A.~Sarkar, S.~K. Mandal,
+  \href{https://doi-org.ez86.periodicos.capes.gov.br/10.1038/s41598-025-01732-6}{Impact
+  of temperature shocks on household water poverty in {India}}, Scientific
+  Reports 15~(1) (dec 1 2025).
+\newblock \href {https://doi.org/10.1038/s41598-025-01732-6}
+  {\path{doi:10.1038/s41598-025-01732-6}}.
+\newline\urlprefix\url{https://doi-org.ez86.periodicos.capes.gov.br/10.1038/s41598-025-01732-6}
+
+\bibitem{Wanguba2024}
+B.~Wanguba, D.~N. Siriba, B.~O. Okumu,
+  \href{https://doi-org.ez86.periodicos.capes.gov.br/10.1016/j.heliyon.2024.e36518}{Gis-based
+  multi-criteria decision analysis model for utility water demand: The case of
+  {Lodwar} {Municipality}, {Turkana} {County}, {Kenya}}, Heliyon 10~(17) (sep
+  15 2024).
+\newblock \href {https://doi.org/10.1016/j.heliyon.2024.e36518}
+  {\path{doi:10.1016/j.heliyon.2024.e36518}}.
+\newline\urlprefix\url{https://doi-org.ez86.periodicos.capes.gov.br/10.1016/j.heliyon.2024.e36518}
+
+\bibitem{Belhadj2026}
+B.~Belhadj, M.~Neffati, B.~Raggad,
+  \href{https://doi-org.ez86.periodicos.capes.gov.br/10.1002/sd.70936}{Beyond
+  {Transplanted} {Thresholds}: Country-{Calibrated} {Fuzzy} {Water} {Poverty}
+  {Indices} for {SDG}-6 in {MENA}}, Sustainable Development (jan 1 2026).
+\newblock \href {https://doi.org/10.1002/sd.70936}
+  {\path{doi:10.1002/sd.70936}}.
+\newline\urlprefix\url{https://doi-org.ez86.periodicos.capes.gov.br/10.1002/sd.70936}
+
+\bibitem{Figueredo2026Repo}
+M.~B. Figueredo, \href{https://doi.org/10.5281/zenodo.21968533}{Water and
+  sanitation affordability in {Brazil}, 1995 to 2022: reproduction code},
+  https://doi.org/10.5281/zenodo.21968533 (2026).
+\newblock \href {https://doi.org/10.5281/zenodo.21968533}
+  {\path{doi:10.5281/zenodo.21968533}}.
+\newline\urlprefix\url{https://doi.org/10.5281/zenodo.21968533}
+
+\end{thebibliography}
